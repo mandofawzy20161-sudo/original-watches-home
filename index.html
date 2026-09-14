@@ -22,10 +22,68 @@ const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,
 const picks=PRODUCTS.filter(p=>p.pick);let activeBrand='all',limit=24;
 function picture(url,alt,lazy=true){return `<img src="${esc(url)}" alt="${esc(alt)}" ${lazy?'loading="lazy"':''} onerror="this.classList.add('broken')"><span class="errorlabel">الصورة غير متاحة حاليًا</span>`}
 function card(p){return `<article class="card"><button class="photo" data-product="${esc(p.id)}" aria-label="عرض ${esc(p.brand+' '+p.model)}">${picture(p.images[0],p.brand+' '+p.model)}<span class="tag">${p.gender==='men'?'رجالي':'حريمي'}</span></button><div class="info"><div class="brand">${esc(p.brand)}</div><h3>${esc(p.model)}</h3><div class="price">${money(p.price)}</div><button class="cardbutton" data-product="${esc(p.id)}">عرض الساعة ←</button></div></article>`}
-const bestsellerModels=['MF0349G.02','MF0463G.02','NF8054-S-B-B','1513755','1791476','ME3263','MK3640','AR11092'];const bestsellers=bestsellerModels.map(model=>PRODUCTS.find(p=>p.model===model)).filter(Boolean);$('bestsellerTrack').innerHTML=bestsellers.map(card).join('');const carouselStep=()=>Math.max(260,$('bestsellerTrack').clientWidth*.82);$('carouselPrev').onclick=()=>$('bestsellerTrack').scrollBy({left:carouselStep(),behavior:'smooth'});$('carouselNext').onclick=()=>$('bestsellerTrack').scrollBy({left:-carouselStep(),behavior:'smooth'});if(!matchMedia('(prefers-reduced-motion: reduce)').matches){let carouselTimer=setInterval(()=>$('bestsellerTrack').scrollBy({left:-carouselStep(),behavior:'smooth'}),4500);$('bestsellerTrack').addEventListener('pointerdown',()=>clearInterval(carouselTimer),{once:true})}
+// Daily selections use Egypt's calendar, independent of the visitor's time zone.
+function cairoDay(now=new Date()){
+  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+  const value=type=>Number(parts.find(p=>p.type===type).value);
+  return Math.floor(Date.UTC(value('year'),value('month')-1,value('day'))/86400000);
+}
+function dailyWatches(day){
+  const available=PRODUCTS.filter(p=>p.images&&p.images[0]);
+  const selected=[],ids=new Set();
+  const add=p=>{if(p&&!ids.has(p.id)){selected.push(p);ids.add(p.id)}};
+  for(const gender of ['men','women']){
+    const pool=available.filter(p=>p.gender===gender);
+    const brands=[...new Set(pool.map(p=>p.brand))].sort();
+    if(!brands.length)continue;
+    for(let i=0;i<4;i++){
+      const slot=day*4+i;
+      const group=pool.filter(p=>p.brand===brands[slot%brands.length]).sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
+      add(group[Math.floor(slot/brands.length)%group.length]);
+    }
+  }
+  for(let i=0;selected.length<8&&i<available.length;i++)add(available[(day*8+i)%available.length]);
+  return selected;
+}
+let displayedDay=null;
+function refreshDailyWatches(){
+  const day=cairoDay();
+  if(day===displayedDay)return;
+  // Avoid removing a focused card or changing choices under an open dialog.
+  if(displayedDay!==null&&($('bestsellerTrack').contains(document.activeElement)||$('productDialog').open))return;
+  $('bestsellerTrack').innerHTML=dailyWatches(day).map(card).join('');
+  $('bestsellerTrack').scrollLeft=0;
+  displayedDay=day;
+}
+refreshDailyWatches();
+setInterval(refreshDailyWatches,30000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDailyWatches()});
+window.addEventListener('focus',refreshDailyWatches);
+const carouselStep=()=>Math.max(260,$('bestsellerTrack').clientWidth*.82);$('carouselPrev').onclick=()=>$('bestsellerTrack').scrollBy({left:carouselStep(),behavior:'smooth'});$('carouselNext').onclick=()=>$('bestsellerTrack').scrollBy({left:-carouselStep(),behavior:'smooth'});if(!matchMedia('(prefers-reduced-motion: reduce)').matches){let carouselTimer=setInterval(()=>$('bestsellerTrack').scrollBy({left:-carouselStep(),behavior:'smooth'}),4500);$('bestsellerTrack').addEventListener('pointerdown',()=>clearInterval(carouselTimer),{once:true})}
 const featuredBrands=['TOMMY HILFIGER','BOSS','MICHAEL KORS','GUESS'];const featured=featuredBrands.flatMap((b,i)=>{const p=picks.find(p=>p.brand===b&&p.gender===(i<2?'men':'women'));return p?[p]:[]});
 $('featuredGrid').innerHTML=featured.map(card).join('');for(const g of ['men','women'])$(g+'Grid').innerHTML=picks.filter(p=>p.gender===g).map(card).join('');
-$('heroImage').src=(picks.find(p=>p.brand==='EMPORIO ARMANI'&&p.gender==='men')||picks[0]).images[0];
+// Rotate the opening watch every two Egypt calendar days.
+function heroWatch(day){
+  const pool=PRODUCTS.filter(p=>p.images&&p.images[0]);
+  if(!pool.length)return null;
+  const brands=[...new Set(pool.map(p=>p.brand))].sort();
+  const period=Math.floor(day/2);
+  const group=pool.filter(p=>p.brand===brands[period%brands.length]).sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
+  return group[Math.floor(period/brands.length)%group.length];
+}
+let displayedHeroPeriod=null;
+function refreshHeroWatch(){
+  const day=cairoDay(),period=Math.floor(day/2);
+  if(period===displayedHeroPeriod)return;
+  const p=heroWatch(day);if(!p)return;
+  $('heroImage').src=p.images[0];
+  $('heroImage').alt='ساعة '+p.brand+' '+p.model;
+  displayedHeroPeriod=period;
+}
+refreshHeroWatch();
+setInterval(refreshHeroWatch,30000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshHeroWatch()});
+window.addEventListener('focus',refreshHeroWatch);
 function home(anchor){$('home').classList.remove('hidden');$('catalog').classList.add('hidden');if(anchor)$(anchor).scrollIntoView();else window.scrollTo(0,0)}
 function catalog(g){$('home').classList.add('hidden');$('catalog').classList.remove('hidden');$('gender').value=g;activeBrand='all';$('search').value='';limit=24;render();window.scrollTo(0,0)}
 function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));if($('sort').value!=='default')result.sort((a,b)=>$('sort').value==='asc'?a.price-b.price:b.price-a.price);$('count').textContent=`${result.length} ساعة · عرض ${Math.min(limit,result.length)}`;$('catalogGrid').innerHTML=result.length?result.slice(0,limit).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب موديل أو براند تاني.</p>';$('loadMore').classList.toggle('hidden',limit>=result.length)}
