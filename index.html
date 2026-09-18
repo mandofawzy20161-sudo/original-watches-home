@@ -99,8 +99,26 @@ nav{align-items:center}nav .category-nav{border:0;background:transparent;color:i
 <script src="products-3.js"></script>
 <script src="products-4.js"></script>
 <script src="products-5.js"></script>
+<script src="catalog-updates.js"></script>
 <script>
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
+
+const CATALOG_UPDATES=window.CATALOG_UPDATES||{update:{},remove:[],add:[]};
+const _removeIds=new Set((CATALOG_UPDATES.remove||[]).map(String));
+for(let i=PRODUCTS.length-1;i>=0;i--){
+  if(_removeIds.has(String(PRODUCTS[i].id))) PRODUCTS.splice(i,1);
+}
+const _productPatches=CATALOG_UPDATES.update||{};
+for(const p of PRODUCTS){
+  const patch=_productPatches[String(p.id)]||_productPatches[p.id];
+  if(patch) Object.assign(p,patch);
+}
+for(const newProduct of (CATALOG_UPDATES.add||[])){
+  if(newProduct && newProduct.id && !PRODUCTS.some(p=>String(p.id)===String(newProduct.id))){
+    PRODUCTS.push(newProduct);
+  }
+}
+
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),money=n=>new Intl.NumberFormat('ar-EG').format(n)+' ج.م';
 const picks=PRODUCTS.filter(p=>p.pick);let activeBrand='all',limit=24;
 function picture(url,alt,lazy=true){return `<img src="${esc(url)}" alt="${esc(alt)}" ${lazy?'loading="lazy"':''} onerror="this.classList.add('broken')"><span class="errorlabel">الصورة غير متاحة حاليًا</span>`}
