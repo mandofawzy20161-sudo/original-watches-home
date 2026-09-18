@@ -194,34 +194,29 @@ window.addEventListener('focus',refreshHeroWatch);
 function home(anchor){$('home').classList.remove('hidden');$('catalog').classList.add('hidden');if(anchor)$(anchor).scrollIntoView();else window.scrollTo(0,0)}
 function catalog(g){$('home').classList.add('hidden');$('catalog').classList.remove('hidden');$('gender').value=g;activeBrand='all';$('search').value='';limit=24;render();window.scrollTo(0,0)}
 function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));if($('sort').value!=='default')result.sort((a,b)=>$('sort').value==='asc'?a.price-b.price:b.price-a.price);$('count').textContent=`${result.length} ساعة · عرض ${Math.min(limit,result.length)}`;$('catalogGrid').innerHTML=result.length?result.slice(0,limit).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب موديل أو براند تاني.</p>';$('loadMore').classList.toggle('hidden',limit>=result.length)}
-function productUrl(id){
-  const u=new URL(window.location.href);
-  u.searchParams.set('product',String(id));
-  return u.toString();
-}
-function clearProductUrl(){
-  const u=new URL(window.location.href);
-  if(u.searchParams.has('product')){
-    u.searchParams.delete('product');
-    history.replaceState({},'',u.pathname+u.search+u.hash);
-  }
-}
 function detail(id,updateUrl=true){const p=PRODUCTS.find(p=>String(p.id)===String(id));if(!p)return;
 if(updateUrl){
-  const u=new URL(window.location.href);
-  u.searchParams.set('product',String(p.id));
-  history.replaceState({product:String(p.id)},'',u.pathname+u.search+u.hash);
+ const u=new URL(window.location.href);
+ u.searchParams.set('product',String(p.id));
+ history.pushState({product:String(p.id)},'',u.pathname+u.search+u.hash);
 }const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':'حريمي'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':'حريمي'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${money(p.price)}</div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<table>${p.specs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table></div></div>`;$('productDialog').showModal()}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-product],[data-catalog],[data-brand],[data-image],[data-home]');if(!el)return;if(el.dataset.product)detail(el.dataset.product);else if(el.dataset.catalog)catalog(el.dataset.catalog);else if(el.dataset.brand){activeBrand=el.dataset.brand;limit=24;render()}else if(el.dataset.image)$('detailImage').src=el.dataset.image;else if(el.dataset.home){e.preventDefault();home(el.dataset.home)}});
-$('closeDialog').onclick=()=>{$('productDialog').close();clearProductUrl()};$('productDialog').addEventListener('click',e=>{if(e.target===$('productDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});$('backHome').onclick=()=>home();$('homeLogo').onclick=e=>{e.preventDefault();home()};for(const id of ['search','gender','sort'])$(id).addEventListener(id==='search'?'input':'change',()=>{limit=24;render()});$('loadMore').onclick=()=>{limit+=24;render()};
-(function openDirectProductFromUrl(){
-  const id=new URLSearchParams(window.location.search).get('product');
-  if(id) detail(id,false);
+$('closeDialog').onclick=()=>{
+ $('productDialog').close();
+ const u=new URL(window.location.href);
+ if(u.searchParams.has('product')){
+  u.searchParams.delete('product');
+  history.replaceState({},'',u.pathname+u.search+u.hash);
+ }
+};$('productDialog').addEventListener('click',e=>{if(e.target===$('productDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});$('backHome').onclick=()=>home();$('homeLogo').onclick=e=>{e.preventDefault();home()};for(const id of ['search','gender','sort'])$(id).addEventListener(id==='search'?'input':'change',()=>{limit=24;render()});$('loadMore').onclick=()=>{limit+=24;render()};
+(function(){
+ const id=new URLSearchParams(location.search).get('product');
+ if(id) setTimeout(()=>detail(id,false),0);
 })();
 window.addEventListener('popstate',()=>{
-  const id=new URLSearchParams(window.location.search).get('product');
-  if(id) detail(id,false);
-  else if($('productDialog').open) $('productDialog').close();
+ const id=new URLSearchParams(location.search).get('product');
+ if(id) detail(id,false);
+ else if($('productDialog').open) $('productDialog').close();
 });
 </script>
 <style>
