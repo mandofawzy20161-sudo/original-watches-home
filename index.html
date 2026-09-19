@@ -191,36 +191,43 @@ refreshHeroWatch();
 setInterval(refreshHeroWatch,30000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshHeroWatch()});
 window.addEventListener('focus',refreshHeroWatch);
-function home(anchor){
+function home(anchor,updateUrl=true){
   $('home').classList.remove('hidden');
   $('catalog').classList.add('hidden');
   document.title='Original Watches EG | اختار ساعتك';
+  if(updateUrl){
+    const u=new URL(window.location.href);
+    u.searchParams.delete('category');
+    u.searchParams.delete('product');
+    history.pushState({page:'home'},'',u.pathname+u.search+(anchor?'#'+anchor:''));
+  }
   if(anchor)$(anchor).scrollIntoView();else window.scrollTo(0,0)
 }
-function updateCatalogTitle(){
-  const g=$('gender').value;
-  const heading=$('catalog').querySelector('.heading h2');
-  if(!heading)return;
-
+function setCatalogBrowserState(g,updateUrl=true){
   if(g==='men'){
-    heading.textContent='ساعات رجالي أصلية';
-    document.title='ساعات رجالي أصلية | Original Watches EG';
+    document.title='ساعات رجالي | Original Watches EG';
   }else if(g==='women'){
-    heading.textContent='ساعات حريمي أصلية';
-    document.title='ساعات حريمي أصلية | Original Watches EG';
+    document.title='ساعات حريمي | Original Watches EG';
   }else{
-    heading.textContent='كل الساعات';
     document.title='كل الساعات | Original Watches EG';
   }
+
+  if(updateUrl){
+    const u=new URL(window.location.href);
+    u.searchParams.delete('product');
+    u.searchParams.set('category',g);
+    history.pushState({category:g},'',u.pathname+u.search+u.hash);
+  }
 }
-function catalog(g){
+
+function catalog(g,updateUrl=true){
   $('home').classList.add('hidden');
   $('catalog').classList.remove('hidden');
   $('gender').value=g;
   activeBrand='all';
   $('search').value='';
   limit=24;
-  updateCatalogTitle();
+  setCatalogBrowserState(g,updateUrl);
   render();
   window.scrollTo(0,0)
 }
@@ -242,18 +249,37 @@ $('closeDialog').onclick=()=>{
 };$('productDialog').addEventListener('click',e=>{if(e.target===$('productDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});$('backHome').onclick=()=>home();$('homeLogo').onclick=e=>{e.preventDefault();home()};for(const id of ['search','gender','sort']){
   $(id).addEventListener(id==='search'?'input':'change',()=>{
     limit=24;
-    if(id==='gender')updateCatalogTitle();
+    if(id==='gender')setCatalogBrowserState($('gender').value,true);
     render();
   });
 }$('loadMore').onclick=()=>{limit+=24;render()};
 (function(){
- const id=new URLSearchParams(location.search).get('product');
- if(id) setTimeout(()=>detail(id,false),0);
+ const params=new URLSearchParams(location.search);
+ const id=params.get('product');
+ const category=params.get('category');
+ if(id){
+   setTimeout(()=>detail(id,false),0);
+ }else if(['men','women','all'].includes(category)){
+   setTimeout(()=>catalog(category,false),0);
+ }
 })();
 window.addEventListener('popstate',()=>{
- const id=new URLSearchParams(location.search).get('product');
- if(id) detail(id,false);
- else if($('productDialog').open) $('productDialog').close();
+ const params=new URLSearchParams(location.search);
+ const id=params.get('product');
+ const category=params.get('category');
+
+ if(id){
+   detail(id,false);
+   return;
+ }
+
+ if($('productDialog').open)$('productDialog').close();
+
+ if(['men','women','all'].includes(category)){
+   catalog(category,false);
+ }else{
+   home(null,false);
+ }
 });
 </script>
 <style>
