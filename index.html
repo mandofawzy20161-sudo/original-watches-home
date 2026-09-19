@@ -191,8 +191,39 @@ refreshHeroWatch();
 setInterval(refreshHeroWatch,30000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshHeroWatch()});
 window.addEventListener('focus',refreshHeroWatch);
-function home(anchor){$('home').classList.remove('hidden');$('catalog').classList.add('hidden');if(anchor)$(anchor).scrollIntoView();else window.scrollTo(0,0)}
-function catalog(g){$('home').classList.add('hidden');$('catalog').classList.remove('hidden');$('gender').value=g;activeBrand='all';$('search').value='';limit=24;render();window.scrollTo(0,0)}
+function home(anchor){
+  $('home').classList.remove('hidden');
+  $('catalog').classList.add('hidden');
+  document.title='Original Watches EG | اختار ساعتك';
+  if(anchor)$(anchor).scrollIntoView();else window.scrollTo(0,0)
+}
+function updateCatalogTitle(){
+  const g=$('gender').value;
+  const heading=$('catalog').querySelector('.heading h2');
+  if(!heading)return;
+
+  if(g==='men'){
+    heading.textContent='ساعات رجالي أصلية';
+    document.title='ساعات رجالي أصلية | Original Watches EG';
+  }else if(g==='women'){
+    heading.textContent='ساعات حريمي أصلية';
+    document.title='ساعات حريمي أصلية | Original Watches EG';
+  }else{
+    heading.textContent='كل الساعات';
+    document.title='كل الساعات | Original Watches EG';
+  }
+}
+function catalog(g){
+  $('home').classList.add('hidden');
+  $('catalog').classList.remove('hidden');
+  $('gender').value=g;
+  activeBrand='all';
+  $('search').value='';
+  limit=24;
+  updateCatalogTitle();
+  render();
+  window.scrollTo(0,0)
+}
 function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));if($('sort').value!=='default')result.sort((a,b)=>$('sort').value==='asc'?a.price-b.price:b.price-a.price);$('count').textContent=`${result.length} ساعة · عرض ${Math.min(limit,result.length)}`;$('catalogGrid').innerHTML=result.length?result.slice(0,limit).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب موديل أو براند تاني.</p>';$('loadMore').classList.toggle('hidden',limit>=result.length)}
 function detail(id,updateUrl=true){const p=PRODUCTS.find(p=>String(p.id)===String(id));if(!p)return;
 if(updateUrl){
@@ -208,7 +239,13 @@ $('closeDialog').onclick=()=>{
   u.searchParams.delete('product');
   history.replaceState({},'',u.pathname+u.search+u.hash);
  }
-};$('productDialog').addEventListener('click',e=>{if(e.target===$('productDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});$('backHome').onclick=()=>home();$('homeLogo').onclick=e=>{e.preventDefault();home()};for(const id of ['search','gender','sort'])$(id).addEventListener(id==='search'?'input':'change',()=>{limit=24;render()});$('loadMore').onclick=()=>{limit+=24;render()};
+};$('productDialog').addEventListener('click',e=>{if(e.target===$('productDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});$('backHome').onclick=()=>home();$('homeLogo').onclick=e=>{e.preventDefault();home()};for(const id of ['search','gender','sort']){
+  $(id).addEventListener(id==='search'?'input':'change',()=>{
+    limit=24;
+    if(id==='gender')updateCatalogTitle();
+    render();
+  });
+}$('loadMore').onclick=()=>{limit+=24;render()};
 (function(){
  const id=new URLSearchParams(location.search).get('product');
  if(id) setTimeout(()=>detail(id,false),0);
