@@ -99,7 +99,7 @@ nav{align-items:center}nav .category-nav{border:0;background:transparent;color:i
 <script src="products-3.js"></script>
 <script src="products-4.js"></script>
 <script src="products-5.js"></script>
-<script src="catalog-updates.js"></script>
+<script src="catalog-updates.js?v=20260920-navi678-diameter"></script>
 <script>
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
 
@@ -355,7 +355,7 @@ const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgb
 <script>
 (()=>{const dialog=document.getElementById('reviewDialog'),full=document.getElementById('reviewFullImage');
 document.addEventListener('click',event=>{const button=event.target.closest('[data-review]');if(!button)return;const img=button.querySelector('img');full.src=img.src;full.alt=img.alt;dialog.showModal();dialog.scrollTop=0});
-const previousDetail=detail;detail=function(id){previousDetail(id);const content=document.getElementById('productContent');if(!content.querySelector('.detailgrid'))return;const reviews=document.getElementById('customer-reviews').cloneNode(true);reviews.id='product-customer-reviews';reviews.setAttribute('aria-labelledby','product-reviews-title');reviews.querySelector('h2').id='product-reviews-title';content.appendChild(reviews)};
+function appendProductReviews(){const content=document.getElementById('productContent');if(!content.querySelector('.detailgrid')||content.querySelector('#product-customer-reviews'))return;const reviews=document.getElementById('customer-reviews').cloneNode(true);reviews.id='product-customer-reviews';reviews.setAttribute('aria-labelledby','product-reviews-title');reviews.querySelector('h2').id='product-reviews-title';content.appendChild(reviews)};const previousDetail=detail;detail=function(id){previousDetail(id);appendProductReviews()};appendProductReviews();
 dialog.querySelector('button').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
 })();
