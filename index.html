@@ -108,7 +108,7 @@ nav{align-items:center}nav .category-nav{border:0;background:transparent;color:i
 <script src="products-3.js"></script>
 <script src="products-4.js"></script>
 <script src="products-5.js"></script>
-<script src="catalog-updates.js?v=20260923-nf6118-merged"></script>
+<script src="catalog-updates.js?v=20260922-guess-w1049g3"></script>
 <script>
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
 
@@ -241,7 +241,41 @@ function catalog(g,updateUrl=true){
   render();
   window.scrollTo(0,0)
 }
-function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>($('stockFilter').value==='all'||p.availability===$('stockFilter').value)&&(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));if($('sort').value!=='default')result.sort((a,b)=>$('sort').value==='asc'?a.price-b.price:b.price-a.price);const showAllBrand=activeBrand!=='all';const shown=showAllBrand?result.length:Math.min(limit,result.length);$('count').textContent=`${result.length} ساعة · عرض ${shown}`;$('catalogGrid').innerHTML=result.length?(showAllBrand?result:result.slice(0,limit)).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب موديل أو براند تاني.</p>';$('loadMore').classList.toggle('hidden',showAllBrand||limit>=result.length)}
+// Catalog order stays stable within each six-hour window.
+const CATALOG_ROTATION_MS=6*60*60*1000;
+function catalogPeriod(now=Date.now()){return Math.floor(now/CATALOG_ROTATION_MS)}
+function catalogShuffle(items,seed){
+  let state=2166136261;
+  for(const ch of String(seed)){state^=ch.charCodeAt(0);state=Math.imul(state,16777619)}
+  const random=()=>{state+=0x6D2B79F5;let t=state;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return ((t^(t>>>14))>>>0)/4294967296};
+  const result=items.slice();
+  for(let i=result.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}
+  return result;
+}
+function catalogOrder(items,sortMode='default',period=catalogPeriod()){
+  const arrange=(pool,stock)=>{
+    if(sortMode!=='default')return pool.slice().sort((a,b)=>sortMode==='asc'?a.price-b.price:b.price-a.price);
+    const groups=new Map();
+    for(const p of pool){if(!groups.has(p.brand))groups.set(p.brand,[]);groups.get(p.brand).push(p)}
+    const brands=catalogShuffle([...groups.keys()].sort(),period+':brands:'+stock);
+    const queues=brands.map(brand=>catalogShuffle(groups.get(brand).slice().sort((a,b)=>String(a.id).localeCompare(String(b.id))),period+':'+stock+':'+brand));
+    const result=[];
+    for(let row=0;result.length<pool.length;row++)for(const queue of queues)if(row<queue.length)result.push(queue[row]);
+    return result;
+  };
+  return [...arrange(items.filter(p=>p.availability!=='out'),'available'),...arrange(items.filter(p=>p.availability==='out'),'out')];
+}
+let lastCatalogPeriod=catalogPeriod();
+function refreshCatalogOrder(){
+  const period=catalogPeriod();
+  if(period===lastCatalogPeriod)return;
+  lastCatalogPeriod=period;
+  if(!$('catalog').classList.contains('hidden'))render();
+}
+setInterval(refreshCatalogOrder,1000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCatalogOrder()});
+window.addEventListener('focus',refreshCatalogOrder);
+function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>($('stockFilter').value==='all'||p.availability===$('stockFilter').value)&&(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));result=catalogOrder(result,$('sort').value);lastCatalogPeriod=catalogPeriod();const showAllBrand=activeBrand!=='all';const shown=showAllBrand?result.length:Math.min(limit,result.length);$('count').textContent=`${result.length} ساعة · عرض ${shown}`;$('catalogGrid').innerHTML=result.length?(showAllBrand?result:result.slice(0,limit)).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب موديل أو براند تاني.</p>';$('loadMore').classList.toggle('hidden',showAllBrand||limit>=result.length)}
 function detail(id,updateUrl=true){const p=PRODUCTS.find(p=>String(p.id)===String(id));if(!p)return;
 if(updateUrl){
  const u=new URL(window.location.href);
@@ -370,5 +404,3 @@ dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.g
 })();
 </script>
 </body></html>
-
-
