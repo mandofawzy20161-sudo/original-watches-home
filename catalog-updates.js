@@ -171,3 +171,38 @@ window.CATALOG_UPDATES = {"update":{"men-MINI FOCUS-MF0610G.02":{"specs":[["ال
   Object.entries(catalog.update || {}).forEach(([id, product]) => apply(id, product));
   (catalog.add || []).forEach(product => apply(product.id, product));
 })();
+
+// 2026-09-24: Mark the currently loaded "ask about availability" products as in stock.
+// Resolve base data and existing patches first, so explicit in/out statuses are preserved.
+(function markUnknownAvailabilityInStock() {
+  const catalog = window.CATALOG_UPDATES;
+  if (!catalog) return;
+  catalog.update = catalog.update || {};
+  const removed = new Set((catalog.remove || []).map(String));
+  const seen = new Set();
+  const isUnknown = status => status !== 'in' && status !== 'out';
+  for (const part of (window.__OW_PRODUCTS_PARTS || [])) {
+    if (!Array.isArray(part)) continue;
+    for (const product of part) {
+      if (!product || product.id == null) continue;
+      const id = String(product.id);
+      if (removed.has(id)) continue;
+      seen.add(id);
+      const patch = catalog.update[id] || {};
+      const effective = Object.assign({}, product, patch);
+      if (isUnknown(effective.availability)) {
+        catalog.update[id] = Object.assign({}, patch, {
+          availability: 'in',
+          availabilityAsOf: '2026-09-24'
+        });
+      }
+    }
+  }
+  for (const product of (catalog.add || [])) {
+    if (!product || !product.id || seen.has(String(product.id))) continue;
+    if (isUnknown(product.availability)) {
+      product.availability = 'in';
+      product.availabilityAsOf = '2026-09-24';
+    }
+  }
+})();
