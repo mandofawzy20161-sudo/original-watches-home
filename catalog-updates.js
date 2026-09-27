@@ -11771,3 +11771,5899 @@ window.CATALOG_UPDATES = {"update":{"men-MINI FOCUS-MF0610G.02":{"specs":[["ال
   catalog.update=catalog.update||{};
   for(const p of products){catalog.add.push(p);catalog.update[p.id]=Object.assign({},catalog.update[p.id]||{},p);}
 })();
+
+
+// NF6118: all eight source variants, 1800 EGP, 2026-09-27.
+(function(){
+ const c=window.CATALOG_UPDATES;
+ const products=[
+  {
+    "id": "men-NAVIFORCE-NF6118-B-RG-B",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-B-RG-B",
+    "name": "ساعة نافي فورس للرجال NF6118-B-RG-B",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1066.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2066.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4066.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-RG-B-1-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-RG-B-2-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-RG-B-3-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3066.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-B-RG-B"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-b-rg-b/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-B-W-B",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-B-W-B",
+    "name": "ساعة نافي فورس للرجال NF6118-B-W-B",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1051-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2051.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4051.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3051.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-W-B-3-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-W-B-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/B-W-B-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-B-W-B"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-b-w-b/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-S-GN-GN",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-S-GN-GN",
+    "name": "ساعة نافي فورس للرجال NF6118-S-GN-GN",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1006.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2006.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3006.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4006.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-GN-GN-1-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-GN-GN-2-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-GN-GN-3-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-S-GN-GN"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-s-gn-gn/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-S-BE-BE",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-S-BE-BE",
+    "name": "ساعة نافي فورس للرجال NF6118-S-BE-BE",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1000.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2000-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3000.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4000.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-BE-BE-1-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-BE-BE-2-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-BE-BE-3-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-S-BE-BE"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-s-be-be/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-GY-GY-GY",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-GY-GY-GY",
+    "name": "ساعة نافي فورس للرجال NF6118-GY-GY-GY",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1041.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2041.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4041.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/GY-GY-GY-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/GY-GY-GY-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/GY-GY-GY-3-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3041.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "رمادي"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "رمادي"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-GY-GY-GY"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-gy-gy-gy/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-S-Y-BN",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-S-Y-BN",
+    "name": "ساعة نافي فورس للرجال NF6118-S-Y-BN",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1011-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2011.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-Y-BN-3-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_03011.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4011.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-Y-BN-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-Y-BN-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "بني"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-S-Y-BN"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-s-y-bn/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-S-W-B",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-S-W-B",
+    "name": "ساعة نافي فورس للرجال NF6118-S-W-B",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1033.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2033.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-B-3-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3033.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4033.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-B-1-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-B-2-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-S-W-B"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-s-w-b/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-NAVIFORCE-NF6118-S-W-BGY",
+    "brand": "NAVIFORCE",
+    "gender": "men",
+    "model": "NF6118-S-W-BGY",
+    "name": "ساعة نافي فورس للرجال NF6118-S-W-BGY",
+    "price": 1800,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_1088.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_2088.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_3088.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_4088-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/IMG_5088-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-BGY-1-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-BGY-2-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/S-W-BGY-3-scaled-1-scaled.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/6118集合图-正1-scaled-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/09/naviforce-watch-box-3-1.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "نافي فورس"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "شكل الساعه",
+        "مربعة"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "نوع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "لون السير",
+        "رصاصي"
+      ],
+      [
+        "مادة صنع السير",
+        "سيليكون مطاط"
+      ],
+      [
+        "عرض الاستيك",
+        "26 مم"
+      ],
+      [
+        "القُطر",
+        "46 مم"
+      ],
+      [
+        "السُمك",
+        "16 مم"
+      ],
+      [
+        "الوزن",
+        "64 جرام"
+      ],
+      [
+        "التاريخ",
+        "ايام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "5متر"
+      ],
+      [
+        "التصميم",
+        "شركة نافي فورس Naviforce Co"
+      ],
+      [
+        "نوع الحركة",
+        "ماكينة يابانية بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "NF6118"
+      ],
+      [
+        "السريال نمبر",
+        "NF6118-S-W-BGY"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf6118-s-w-bgy/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  }
+];
+ const ids=new Set(products.map(p=>p.id));
+ c.add=(c.add||[]).filter(p=>!ids.has(p.id));
+ c.update=c.update||{};
+ c.remove=(c.remove||[]).filter(id=>!ids.has(id));
+ for(const p of products){c.add.push(p);c.update[p.id]=Object.assign({},c.update[p.id]||{},p);}
+})();
+
+
+// Lacoste: 64 models; source selling price minus 100 EGP.
+(function(){
+ const c=window.CATALOG_UPDATES;
+ const products=[
+  {
+    "id": "men-LACOSTE-2011072",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011072",
+    "name": "ساعة لاكوست للرجال 2011072",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_194659.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_194659.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_194659.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-16.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011072"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011072/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011069",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011069",
+    "name": "ساعة لاكوست رجالي 2011069",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9774.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9775.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9776.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9781.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9783.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9780.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9784.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9777.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9778.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9782.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-15.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011069"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011069/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001261",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001261",
+    "name": "ساعة لاكوست للنساء 2001261",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9627.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9628.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9629.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9631.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9630.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Ladycroc Ladies"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "نحاسي"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "36"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001261"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001261/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011246",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011246",
+    "name": "ساعة لاكوست رجالي 2011246",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9668.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9669.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9670.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9671.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-9.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011246"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011246/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011153",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011153",
+    "name": "ساعة لاكوست رجالي 2011153",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9600-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_142205-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9601-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_142205-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_004_20240830_142205-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_142205-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_142205-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9602-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست تايبكير"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "زيتي"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "22"
+      ],
+      [
+        "الوزن",
+        "88"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011153"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011153/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011255",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011255",
+    "name": "ساعة لاكوست رجالي 2011255",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9824.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9825.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9826.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9827.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9828.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—- جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011255"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011255/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011154",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011154",
+    "name": "ساعة لاكوست رجالي 2011154",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9620.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9621.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9622.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9625.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9624.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9623.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست تايبكير"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "22"
+      ],
+      [
+        "الوزن",
+        "88"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011154"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011154/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2011023",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2011023",
+    "name": "ساعة لاكوست رجالي ونسائي 2011023",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9799.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9801.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9802.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9804.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9803.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي ونسائي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011023"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011023/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001259",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001259",
+    "name": "ساعة لاكوست للنساء 2001259",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9633.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9635.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9636.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9637.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-3.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Ladycroc Ladies"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "36"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001259"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001259/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2010984",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2010984",
+    "name": "ساعة لاكوست رجالي 2010984",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9757.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9758.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9759.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9760.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9765.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9764.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9763.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9762.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9761.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-15.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2010984"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2010984/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011152",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011152",
+    "name": "ساعة لاكوست رجالي 2011152",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9614.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9615.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9616.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9617.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست تايبكير"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "22"
+      ],
+      [
+        "الوزن",
+        "88"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011152"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011152/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011245",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011245",
+    "name": "ساعة لاكوست رجالي 2011245",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9661.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9662.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9663.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9664.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-8.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011245"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011245/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011247",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011247",
+    "name": "ساعة لاكوست رجالي 2011247",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_163359.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_163359.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_163359.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9675.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-9.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011247"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011247/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011244",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011244",
+    "name": "ساعة لاكوست رجالي 2011244",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9656.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9657.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9658.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9659.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-7.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011244"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011244/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011228",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011228",
+    "name": "ساعة لاكوست رجالي 2011228",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_201320.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_201320.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_201320.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9832.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كلوب"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011228"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011228/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011013",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011013",
+    "name": "ساعة لاكوست رجالي 2011013",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_190021.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_190021.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_190021.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_004_20240830_190021.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-14.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011013"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011013/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2010974",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2010974",
+    "name": "ساعة لاكوست رجالي ونسائي 2010974",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_008_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_007_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_006_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_005_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_004_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_184323.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-13.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2010974"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2010974/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011243",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011243",
+    "name": "ساعة لاكوست رجالي 2011243",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9652.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9653.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9654.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9655.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-6.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011243"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011243/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001236",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001236",
+    "name": "ساعة لاكوست نسائيه 2001236",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569341_658Wx734H_202302171649161-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569341_658Wx734H_202302171649093-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569341_658Wx734H_202302171649172-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569341_658Wx734H_202302171649124-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569341_658Wx734H_202302171649145-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/img_9619-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "48"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001236"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%86%d8%b3%d8%a7%d8%a6%d9%8a%d9%87-2001236/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011039",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011039",
+    "name": "ساعة لاكوست رجالي ونسائي 2011039",
+    "price": 3750,
+    "sourcePrice": 3850,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-orgignal-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-2.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-3.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-4.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-5.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-6.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-7.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/11/2011039-original-lacoste-unisex-watch-full-white-dial-rubber-strap-egypt-8.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست 12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—- جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011039"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011039/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2010972",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2010972",
+    "name": "ساعة لاكوست رجالي 2010972",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9692.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9693.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9694.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9695.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-11.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2010972"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2010972/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011080",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011080",
+    "name": "ساعة لاكوست رجالي الأصليه 2011080",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_000_20241024_223556.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_001_20241024_223556.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_002_20241024_223556.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_003_20241024_223556.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_004_20241024_223556.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-8.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "105 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011080"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011080/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011205",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011205",
+    "name": "ساعة لاكوست رجالي 2011205",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5520.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5521.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5522.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5523.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "84 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011205"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011205/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011218",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011218",
+    "name": "ساعة لاكوست رجالي 2011218",
+    "price": 4050,
+    "sourcePrice": 4150,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5514.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5515.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5516.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5517.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5518.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست انديورانس"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "84 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011218"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011218/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011298",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011298",
+    "name": "ساعة لاكوست رجالي 2011298",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_202200.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_202109.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_202109.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_202109.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Apext"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011298"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011298/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011070",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011070",
+    "name": "ساعة لاكوست رجالي 2011070",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9766.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9767.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9768.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9769.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-15.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011070"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011070/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001192",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001192",
+    "name": "ساعة لاكوست للنساء 2001192",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/2001192.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/2001192-1-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-2001192_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/2001192-2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/473Wx593H-469181662-black-MODEL5.avif",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-ladycroc-2001192-women-s-watch64453.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/pol_pm_Zegarek-meski-LACOSTE-BOSTON-2011096-35583_7.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Ladycroc Ladies"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "36"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001192"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001192/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001337",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001337",
+    "name": "ساعة لاكوست للنساء 2001337",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001337-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001337_1-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001337_2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/1_org_zoom.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستنلس ستيل"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001192"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001337/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001335",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001335",
+    "name": "ساعة لاكوست للنساء 2001335",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/lacoste-2001335-165447-1-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001335-zegarek-fashion-modowy-damskie-165453-4-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001335-damski-zegarek-damskie-bransoleta-165451-3-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001335-zegarek-damski-damskie-165449-2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "وردي"
+      ],
+      [
+        "لون السير",
+        "وردي"
+      ],
+      [
+        "ماده صنع السير",
+        "جلد"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001335"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001335/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001267",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001267",
+    "name": "ساعة لاكوست للنساء 2001267",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272490047_1-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272490047_2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272490047_3-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/b0b2e45e-0e0c-47a3-a41f-81805499834f-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/img_9619-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "54"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001267"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001267/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011081",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011081",
+    "name": "ساعة لاكوست رجالي 2011081",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5593.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5594.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5595.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-9.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "105 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011081"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011081/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011206",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011206",
+    "name": "ساعة لاكوست رجالي 2011206",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_000_20241024_220457.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_001_20241024_220457.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_002_20241024_220457.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_003_20241024_220457.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Endurance"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "84 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011206"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011206/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011178",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011178",
+    "name": "ساعة لاكوست رجالي 2011178",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9866.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9867.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9870.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9868.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9869.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—- جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011178"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011178/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011162",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011162",
+    "name": "ساعة لاكوست رجالي 2011162",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_006_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_005_20240830_195852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_004_20240830_195852.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "110 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011162"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011162/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011248",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011248",
+    "name": "ساعة لاكوست نسائي / رجالي 2011248",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_163740.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_163740.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_163740.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-10.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست كرونو"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "51 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011248"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011248/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001348",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001348",
+    "name": "ساعة لاكوست للنساء 2001348",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/1-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/3-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001348img4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستنلس ستيل"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001348"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001348/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001356",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001356",
+    "name": "ساعة لاكوست للنساء 2001356",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001356_6c9f3af7-c78e-4cb5-8070-b199b53a5e23_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001356IMG1_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001356IMG2_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001356IMG3_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001356IMG4_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "35"
+      ],
+      [
+        "السمك",
+        "5"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001356"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001356/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001309",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001309",
+    "name": "ساعة لاكوست للنساء 2001309",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/montre-femme-lacoste-montres-crocorigin-2001309-bracelet-acier-dore_3515628_1140x1140-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/montre-femme-lacoste-montres-crocorigin-2001309-bracelet-acier-dore_3515628-3_1140x1140.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/montre-femme-lacoste-montres-crocorigin-2001309-bracelet-acier-dore_3515628-2_1140x1140.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/montre-femme-lacoste-montres-crocorigin-2001309-bracelet-acier-dore_3515628-4_1140x1140.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ذهبي"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "35"
+      ],
+      [
+        "السمك",
+        "5"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001309"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001309/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011284",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011284",
+    "name": "ساعة لاكوست رجالي 2011284",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011284-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011284_side-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011284_back-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011284-179eu-44mm-5atm-4-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/laciste_box_foto_61-Photoroom.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "75جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011284"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011284/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011093",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011093",
+    "name": "ساعة لاكوست رجالي 2011093",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011093_1200x.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011093-1_1200x.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011093-2_1200x.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011093-4_1200x.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/lacoste-boston-2011093-3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/godinnik-lacoste-2011093-3-800x800-1.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/lacoste_boston_2011093.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/lacoste_boston_20110931.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/original-imagcvgaxxreqvgt.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/tjerk_lacoste3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/tjerk_lacoste4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/tjerk_lacoste5.webp"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "بني"
+      ],
+      [
+        "ماده صنع السير",
+        "جلد طبيعي"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "115 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011093"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011093/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011109",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011109",
+    "name": "ساعة لاكوست رجالي 2011109",
+    "price": 4100,
+    "sourcePrice": 4200,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5608.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5611.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5612.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5613.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5610.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5609.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-11.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "جلد طبيعي"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "115 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011109"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011109/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011079",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011079",
+    "name": "ساعة لاكوست رجالي 2011079",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5567.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5568.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5569.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_003_20241024_222933.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_002_20241024_222933.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_004_20241024_222933.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_001_20241024_222933.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_000_20241024_222933.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-7.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "105 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011079"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011079/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011155",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011155",
+    "name": "ساعة لاكوست رجالي 2011155",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5549.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5550.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5551.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5552.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-6.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست تايبكير"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستنلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "22"
+      ],
+      [
+        "الوزن",
+        "115"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011155"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011155/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011151",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011151",
+    "name": "‎ساعة لاكوست رجالي 2011151",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_000_20241024_221816.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_001_20241024_221816.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_002_20241024_221816.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_003_20241024_221816.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست تايبكير"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستنلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "22"
+      ],
+      [
+        "الوزن",
+        "115"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011151"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011151/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011208",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011208",
+    "name": "‎ساعة لاكوست رجالي 2011208",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_000_20241024_220838.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_001_20241024_220838.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_002_20241024_220838.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/photoroom_003_20241024_220838.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-3.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Endurance"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "139 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011208"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011208/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011270",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011270",
+    "name": "ساعة لاكوست رجالي 2011270",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_214133.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_214133.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_214133.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_214133.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "85جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011270"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011270/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011071",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011071",
+    "name": "ساعة لاكوست رجالي 2011071",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9770.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9772.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9771.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9773.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-15.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011071"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011071/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011012",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011012",
+    "name": "ساعة لاكوست رجالي 2011012",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_004_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_005_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_185528.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-14.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011012"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011012/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001260",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001260",
+    "name": "ساعة لاكوست للنساء 2001260",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_144520.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_144520.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_144520.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_003_20240830_144520.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-4.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Ladycroc Ladies"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "36"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001260"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001260/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001244",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001244",
+    "name": "ساعة لاكوست للنساء 2001244",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/0180006_lacoste-quartz-kadin-kol-saati-2001244-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/7613272486736_2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/7613272486736_3-Photoroom.jpg"
+    ],
+    "specs": [
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "48"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001244"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001244/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001287",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001287",
+    "name": "ساعة لاكوست للنساء 2001287",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001287_82839ded-59e6-4c76-9251-3b18b8e18ffd_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001287img2_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001287img1_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001287img3_1800x1800.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ذهبي"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "35"
+      ],
+      [
+        "السمك",
+        "5"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001287"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001287/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001286",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001286",
+    "name": "ساعة لاكوست للنساء 2001286",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001286_3fdfbfab-a1e6-4133-82ad-9647b0055c7c_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001286img2_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272517089_2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001286img3_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001286img1_44bbdf1a-9fef-4e13-9de7-2d6df9b81bc7_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001286-Photoroom-1.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "35"
+      ],
+      [
+        "السمك",
+        "5"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001286"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001286/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011286",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011286",
+    "name": "ساعة لاكوست رجالي 2011286",
+    "price": 4050,
+    "sourcePrice": 4150,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272546966_1-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272546966_2-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/7613272546966_3-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011286_Back.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2011286-1.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/img_9619-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "130 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011286"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011286/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011227",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011227",
+    "name": "ساعة لاكوست رجالي 2011227",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/b0b7mnmpvw201_chvfoghmhnt2ma4j-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/b0b7mnmpvw2_qxkywyj8oxrfn4yi-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/b0b7mnmpvw3_voewta9z2wttfbwf-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016612301_437Wx649H_202302211412521.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "بني"
+      ],
+      [
+        "ماده صنع السير",
+        "جلد طبيعي"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "مقاومه المياه",
+        "5متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011227"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-2011227/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011163",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011163",
+    "name": "ساعة لاكوست رجالي 2011163",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5604.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5605.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5606.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5607.png",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-11.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "115 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011163"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011163/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011112",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011112",
+    "name": "ساعة لاكوست رجالي 2011112",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5596.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5598.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5599.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5601.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5602.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5603.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-10.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست بوس تون"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "فضي x نحاسي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "105 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011112"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011112/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2011207",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2011207",
+    "name": "‎ساعة لاكوست رجالي 2011207",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5544.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5546.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5547.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5548.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/10/img_5519-4.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست Endurance"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "لون السير",
+        "ازرق"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "44"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "139 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011207"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011207/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "men-LACOSTE-2010973",
+    "brand": "LACOSTE",
+    "gender": "men",
+    "model": "2010973",
+    "name": "ساعة لاكوست رجالي 2010973",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_000_20240830_164943.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_001_20240830_164943.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/photoroom_002_20240830_164943.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9699.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-12.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "43"
+      ],
+      [
+        "السمك",
+        "21"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2010973"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2010973/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001265",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001265",
+    "name": "ساعة لاكوست نسائيه 2001265",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9849.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9850.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9851.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9853.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "36"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001265"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001265/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001235",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001235",
+    "name": "ساعة لاكوست للنساء 2001235",
+    "price": 3850,
+    "sourcePrice": 3950,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569343_658Wx734H_202302171649151-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569343_658Wx734H_202302171649093-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569343_658Wx734H_202302171649132-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/MP000000016569343_658Wx734H_202302171649114-Photoroom.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/img_9619-5.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "ابيض"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "48"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001235"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001235/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2011192",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2011192",
+    "name": "ساعة لاكوست نسائي ورجالي 2011192",
+    "price": 3650,
+    "sourcePrice": 3750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9795-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9796.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9797.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9798.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2024/08/img_9619-17.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست L12.12"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "رجالي ونسائي"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "لون السير",
+        "اخضر"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "42"
+      ],
+      [
+        "السمك",
+        "20"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومه المياه",
+        "10 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2011192"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2011192/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001245",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001245",
+    "name": "ساعة لاكوست للنساء 2001245",
+    "price": 4150,
+    "sourcePrice": 4250,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-swing-multi-bicolor-7613272486743-167362103664.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-2001245-swing-ladies-40mm-5atm-1.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-2001245-swing-ladies-40mm-5atm.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/lacoste-2001245_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/06/2001245_cropped.webp"
+    ],
+    "specs": [
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "لون السير",
+        "وردي"
+      ],
+      [
+        "ماده صنع السير",
+        "سيلكون مطاط"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "48"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001245"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001245/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001285",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001285",
+    "name": "ساعة لاكوست للنساء 2001285",
+    "price": 4045,
+    "sourcePrice": 4145,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001285_896bcbde-25a5-4a76-ba52-9d674bdcf960_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001285img2_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001285img1_2c574736-6b4b-4bc9-bd1c-5e8561195ea3_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/2001285img3_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/Relogio-Lacoste-Feminino-Aco-Prateado-2001285-71706_5_set.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستانلس ستيل"
+      ],
+      [
+        "القطر",
+        "35"
+      ],
+      [
+        "السمك",
+        "5"
+      ],
+      [
+        "الوزن",
+        "45"
+      ],
+      [
+        "مقاومه المياه",
+        "3متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001285"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%84%d8%a7%d9%83%d9%88%d8%b3%d8%aa-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-2001285/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-LACOSTE-2001336",
+    "brand": "LACOSTE",
+    "gender": "women",
+    "model": "2001336",
+    "name": "ساعة لاكوست للنساء 2001336",
+    "price": 4250,
+    "sourcePrice": 4350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/362954870_big.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/850825334_2001336_side.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/1-Photoroom-1.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/03/61234TvTXCL._AC_SX679_.jpg"
+    ],
+    "specs": [
+      [
+        "الماركه / الموديل",
+        "لاكوست"
+      ],
+      [
+        "نوع العرض",
+        "دائرية"
+      ],
+      [
+        "النوع",
+        "نسائي"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "ماده صنع السير",
+        "ستنلس ستيل"
+      ],
+      [
+        "القطر",
+        "38"
+      ],
+      [
+        "السمك",
+        "8"
+      ],
+      [
+        "الوزن",
+        "—"
+      ],
+      [
+        "مقاومه المياه",
+        "5 متر"
+      ],
+      [
+        "نوع الحركه",
+        "بطاريه"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "2001336"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/2001336/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  }
+];
+ const ids=new Set(products.map(p=>p.id));
+ c.add=(c.add||[]).filter(p=>!ids.has(p.id));
+ c.update=c.update||{};
+ c.remove=(c.remove||[]).filter(id=>!ids.has(id));
+ for(const p of products){c.add.push(p);c.update[p.id]=Object.assign({},c.update[p.id]||{},p);}
+})();
