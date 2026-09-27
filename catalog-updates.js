@@ -2671,3 +2671,9103 @@ window.CATALOG_UPDATES = {"update":{"men-MINI FOCUS-MF0610G.02":{"specs":[["ال
     catalog.update[product.id] = Object.assign({}, catalog.update[product.id] || {}, product);
   }
 })();
+
+// Just Cavalli / Roberto Cavalli import — 2026-09-27; source price minus EGP 100.
+(function(){
+  const catalog=window.CATALOG_UPDATES;
+  const products=[
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0035",
+    "name": "ساعة جست كافالي للنساء JC1L248M0035",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-57.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-38.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-33.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أحمر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8.7 مم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون المينا",
+        "احمر"
+      ],
+      [
+        "لون الستراب",
+        "نحاسي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l248m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L306M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L306M0045",
+    "name": "ساعة جست كافالي للنساء JC1L306M0045",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-48.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-24.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-23.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "42 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L306M0045"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l306m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L229M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L229M0065",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L229M0065",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6047-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6049-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6048-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L229M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-6/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0275",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0275",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0275",
+    "price": 5750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_131330.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_131330.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_131330.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0275"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1-5/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L264M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L264M0075",
+    "name": "ساعة جست كافالي للنساء JC1L264M0075",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5960.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5961.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5962.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L264M0075"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l264m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L230M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L230M0065",
+    "name": "ساعة جست كافالي للنساء JC1L230M0065",
+    "price": 5350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5856.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5857.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5858.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L230M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l230/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L224M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L224M0055",
+    "name": "ساعة جست كافالي للنساء JC1L224M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-27.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-22.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-4-38.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "روز جولد"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "33 مم"
+      ],
+      [
+        "السُمك",
+        "12 مم"
+      ],
+      [
+        "الوزن",
+        "67 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L224M0055"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l224m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L264M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L264M0065",
+    "name": "ساعة جست كافالي للنساء JC1L264M0065",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-52.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-28.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-33.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "9 مم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L264M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l264m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L227M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L227M0065",
+    "name": "ساعة جست كافالي للنساء JC1L227M0065",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-26.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-30.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-25.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22*33.5 مم"
+      ],
+      [
+        "السُمك",
+        "7.6 مم"
+      ],
+      [
+        "الوزن",
+        "40 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L227M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l227m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L222M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L222M0055",
+    "name": "ساعة جست كافالي للنساء JC1L222M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5903.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5905.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5906.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5904.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L222M0055"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l222m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L230M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L230M0045",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L230M0045",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l230m0045-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l230m0045-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l230m0045-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-15.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "66 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L230M0045"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l230m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L228M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L228M0065",
+    "name": "ساعة جست كافالي للنساء JC1L228M0065",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_174204.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_174204.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_174204.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L228M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l228m0085-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0015",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0015",
+    "name": "ساعة جست كافالي للنساء JC1L251M0015",
+    "price": 5545,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-20.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-17.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-18.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-4-15.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أزرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * أزرق * بيبي بلو"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "7.1 مم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0015"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l251m0015/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0215",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0215",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0215",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_130915.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_130915.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_130915.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0215"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1-3/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L271M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L271M0055",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L271M0055",
+    "price": 6050,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5994-1-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5996-1-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5997-1-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5995-1-scaled.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L271M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-4/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L264M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L264M0035",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L264M0035",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_125058.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_125058.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_003_20250913_125058.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_125058.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L264M0035"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L226M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L226M0065",
+    "name": "ساعة جست كافالي للنساء JC1L226M0065",
+    "price": 6050,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_214952.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_214952.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_214952.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L226M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l226m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L304M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L304M0055",
+    "name": "ساعة جست كافالي للنساء JC1L304M0055",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5875.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5876.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5877.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "56 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L304M0055"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l3-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L230M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L230M0035",
+    "name": "ساعة جست كافالي للنساء JC1L230M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5859.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5861.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5860.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5862.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم33.5"
+      ],
+      [
+        "السُمك",
+        "7.6 مم"
+      ],
+      [
+        "الوزن",
+        "—-"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L230M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l230m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L269M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L269M0075",
+    "name": "ساعة جست كافالي للنساء JC1L269M0075",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-27.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-5-38.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-4-41.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أسود"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "أسود"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "28.7 مم"
+      ],
+      [
+        "السُمك",
+        "8.5 مم"
+      ],
+      [
+        "الوزن",
+        "48 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L269M0075"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l269m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L264M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L264M0025",
+    "name": "ساعة جست كافالي للنساء JC1L264M0025",
+    "price": 5545,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-70.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-47.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-59.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "9 مم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L264M0025"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l264m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L232M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L232M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L232M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-6-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "65 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L232M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l232m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L248M0055",
+    "price": 5350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-7.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l248m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L302M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L302M0055",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L302M0055",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6037-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6038-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6039-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L302M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l3/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0225",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0225",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0225",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6013-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6015-1.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6014-1.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0225"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L264M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L264M0055",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L264M0055",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_125341.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_125341.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_125341.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L264M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L225M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L225M0025",
+    "name": "ساعة جست كافالي للنساء JC1L225M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_221209.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_221209.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_221209.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L225M0025"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l225m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L226M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L226M0055",
+    "name": "ساعة جست كافالي للنساء JC1L226M0055",
+    "price": 6150,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_175912.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5834.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5835.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5836.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L226M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l226m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L222M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L222M0075",
+    "name": "ساعة جست كافالي للنساء JC1L222M0075",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_175504.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_175504.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_175504.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L222M0075"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l222m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0065",
+    "name": "ساعة جست كافالي للنساء JC1L251M0065",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5822.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5823.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5824.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l251m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L303M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L303M0065",
+    "name": "ساعة جست كافالي للنساء JC1L303M0065",
+    "price": 5350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5881.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5883.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5882.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "نحاسي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "—-"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L303M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l303/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L303M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L303M0035",
+    "name": "ساعة جست كافالي للنساء JC1L303M0035",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5864.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5865.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5866.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 * 32.5مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "—–"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L303M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l303m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L230M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L230M0075",
+    "name": "ساعة جست كافالي للنساء JC1L230M0075",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5852.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5854.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5853.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L230M0075"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L222M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L222M0035",
+    "name": "ساعة جست كافالي للنساء JC1L222M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-49.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-28.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-25.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L222M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l222m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0045",
+    "name": "ساعة جست كافالي للنساء JC1L251M0045",
+    "price": 5445,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/photoroom_000_20250912_211011.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-35.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-30.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-29.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أحمر غامق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي * أحمر * بني"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "7.1 مم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0045"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l251m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L222M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L222M0065",
+    "name": "ساعة جست كافالي للنساء JC1L222M0065",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/photoroom_000_20250912_210318.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5899.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/photoroom_002_20250912_210318.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/photoroom_001_20250912_210318.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * روز جولد"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L222M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l222m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-ROBERTO CAVALLI-RC5L098M0025",
+    "brand": "ROBERTO CAVALLI",
+    "gender": "women",
+    "model": "RC5L098M0025",
+    "name": "ساعة روبرتو كفالي Roberto Cavalli للنساء RC5L098M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals_6.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l098m0025-roberto-cavalli-watch-donna-glam-women-silver-dial-gold-stainless-steel-strap-crystals_7.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الموديل",
+        "روبرتو كفالي دونا جلام"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "30 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "80 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "RC5L098M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%b1%d9%88%d8%a8%d8%b1%d8%aa%d9%88-%d9%83%d9%81%d8%a7%d9%84%d9%8a-roberto-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-rc5l098m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-ROBERTO CAVALLI-RV1L225M0081",
+    "brand": "ROBERTO CAVALLI",
+    "gender": "women",
+    "model": "RV1L225M0081",
+    "name": "ساعة روبرتو كفالي Roberto Cavalli للنساء RV1L225M0081",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0081-roberto-cavalli-watch-franck-muller-women-white-dial-silver-rose-gold-stainless-steel-strap-mother-of-pearl-snake-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-18.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الموديل",
+        "روبرتو كفالي فرانك مولر"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "16 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "90 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "RV1L225M0081"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "روز جولد , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%b1%d9%88%d8%a8%d8%b1%d8%aa%d9%88-%d9%83%d9%81%d8%a7%d9%84%d9%8a-roberto-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-rv1l225m0081/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L323M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L323M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L323M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0055-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0055-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0055-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0055-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0055-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-17.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "53 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L323M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l323m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L232M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L232M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L232M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-16.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "65 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L232M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l232m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L322M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L322M0065",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L322M0065",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l322m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l322m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l322m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l322m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-14.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "36 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L322M0065"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "فضي , نحاسي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l322m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L249M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L249M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L249M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l249m0025-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l249m0025-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l249m0025-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l249m0025-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l249m0025-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-12.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "احمر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "40 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L249M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l249m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L248M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-11.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l248m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L229M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L229M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L229M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l229m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l229m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l229m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-10.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "45 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L229M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l229m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-ROBERTO CAVALLI-RV1L225M0051",
+    "brand": "ROBERTO CAVALLI",
+    "gender": "women",
+    "model": "RV1L225M0051",
+    "name": "ساعة روبرتو كفالي Roberto Cavalli للنساء RV1L225M0051",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0051-roberto-cavalli-watch-franck-muller-women-green-dial-gold-stainless-steel-strap-snake.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0051-roberto-cavalli-watch-franck-muller-women-green-dial-gold-stainless-steel-strap-snake_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0051-roberto-cavalli-watch-franck-muller-women-green-dial-gold-stainless-steel-strap-snake_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0051-roberto-cavalli-watch-franck-muller-women-green-dial-gold-stainless-steel-strap-snake_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0051-roberto-cavalli-watch-franck-muller-women-green-dial-gold-stainless-steel-strap-snake_5.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الموديل",
+        "روبرتو كفالي فرانك مولر"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "16 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "90 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "RV1L225M0051"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%b1%d9%88%d8%a8%d8%b1%d8%aa%d9%88-%d9%83%d9%81%d8%a7%d9%84%d9%8a-roberto-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-rv1l225m0051/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L356M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L356M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L356M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-8-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ذهبي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "21 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "43 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L356M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l356m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L226M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L226M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L226M0025",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0025-just-cavalli-watch-signature-snake-women-gold-silver-dial-stainless-steel-strap-triple-wrap-crystals-glitter.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0025-just-cavalli-watch-signature-snake-women-gold-silver-dial-stainless-steel-strap-triple-wrap-crystals-glitter_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0025-just-cavalli-watch-signature-snake-women-gold-silver-dial-stainless-steel-strap-triple-wrap-crystals-glitter_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0025-just-cavalli-watch-signature-snake-women-gold-silver-dial-stainless-steel-strap-triple-wrap-crystals-glitter_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-7-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ذهبي و فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "9 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L226M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "ذهبي , فضي"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l226m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-ROBERTO CAVALLI-RV1L225M0071",
+    "brand": "ROBERTO CAVALLI",
+    "gender": "women",
+    "model": "RV1L225M0071",
+    "name": "ساعة روبرتو كفالي Roberto Cavalli للنساء RV1L225M0071",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rv1l225m0071-roberto-cavalli-watch-franck-muller-women-white-dial-silver-gold-stainless-steel-strap-mother-of-pearl-snake-two-tone.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الموديل",
+        "روبرتو كفالي فرانك مولر"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "16 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "90 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "RV1L225M0071"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%b1%d9%88%d8%a8%d8%b1%d8%aa%d9%88-%d9%83%d9%81%d8%a7%d9%84%d9%8a-roberto-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-rv1l225m0071/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0075",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L248M0075",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0075-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l248m0075-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-3-2.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0075"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "روز جولد , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l248m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L305M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L305M0045",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L305M0045 — Mirror (حسب المصدر)",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l305m0045-just-cavalli-watch-signature-snake-women-white-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l305m0045-just-cavalli-watch-signature-snake-women-white-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l305m0045-just-cavalli-watch-signature-snake-women-white-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l305m0045-just-cavalli-watch-signature-snake-women-white-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals-mother-of-pearl_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-3-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "9 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "40 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L305M0045"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "روز جولد"
+      ],
+      [
+        "نوع الساعة",
+        "Mirror"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l305m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L226M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L226M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L226M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0035-just-cavalli-watch-signature-snake-women-green-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-glitter.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0035-just-cavalli-watch-signature-snake-women-green-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-glitter_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0035-just-cavalli-watch-signature-snake-women-green-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-glitter_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l226m0035-just-cavalli-watch-signature-snake-women-green-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-glitter_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-2-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر و فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "9 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L226M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l226m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L356M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L356M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L356M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_2-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_3-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l356m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_4-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-1-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "21 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "43 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L356M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l356m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L224M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L224M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L224M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_6.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l224m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-8.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L224M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l224m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L228M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L228M0045",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L228M0045",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l228m0045-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals-jc-logo.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l228m0045-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals-jc-logo_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l228m0045-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals-jc-logo_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l228m0045-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals-jc-logo_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l228m0045-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals-jc-logo_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-7.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "احمر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "66 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L228M0045"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l228m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L232M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L232M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L232M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l232m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-6.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "65 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L232M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l232m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L302M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L302M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L302M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l302m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l302m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l302m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l302m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-5.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "احمر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "55 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L302M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l302m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-ROBERTO CAVALLI-RC5L078M0075",
+    "brand": "ROBERTO CAVALLI",
+    "gender": "women",
+    "model": "RC5L078M0075",
+    "name": "ساعة روبرتو كفالي Roberto Cavalli للنساء RC5L078M0075",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l078m0075-roberto-cavalli-watch-chiarezza-women-silver-dial-rose-gold-stainless-steel-strap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l078m0075-roberto-cavalli-watch-chiarezza-women-silver-dial-rose-gold-stainless-steel-strap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l078m0075-roberto-cavalli-watch-chiarezza-women-silver-dial-rose-gold-stainless-steel-strap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l078m0075-roberto-cavalli-watch-chiarezza-women-silver-dial-rose-gold-stainless-steel-strap-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/rc5l078m0075-roberto-cavalli-watch-chiarezza-women-silver-dial-rose-gold-stainless-steel-strap-crystals-two-tone_6.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الموديل",
+        "روبرتو كفالي كياريتزا"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "14 مم"
+      ],
+      [
+        "القُطر",
+        "30 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "روبرتو كفالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "RC5L078M0075"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "روز جولد , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%b1%d9%88%d8%a8%d8%b1%d8%aa%d9%88-%d9%83%d9%81%d8%a7%d9%84%d9%8a-roberto-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-rc5l078m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L370M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L370M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L370M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l370m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_6.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-3.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "61 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L370M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l370m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L323M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L323M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L323M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l323m0035-just-cavalli-watch-signature-snake-women-red-dial-gold-stainless-steel-strap-triple-wrap-crystals_8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-2.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "احمر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "53 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L323M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l323m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L227M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L227M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L227M0035",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l227m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-jc-logo-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l227m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-jc-logo_2-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l227m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-jc-logo_3-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/jc1l227m0035-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-jc-logo_4-1.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/08/just-cavalli-watch-box-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "44 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L227M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l227m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0065",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L248M0065",
+    "price": 5350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0065-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0065-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0065-just-cavalli-watch-signature-snake-women-green-dial-silver-gold-stainless-steel-strap-triple-wrap-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-8.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "30 متر"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0065"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي , فضي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l248m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L251M0025",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l251m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l251m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l251m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l251m0025-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_4.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "43 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l251m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L248M0085",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L248M0085",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L248M0085",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l248m0085-just-cavalli-watch-signature-snake-women-black-dial-stainless-steel-strap-triple-wrap-crystals_6.webp"
+    ],
+    "specs": [
+      [
+        "لماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اسود"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "اسود"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "67 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L248M0085"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أسود"
+      ],
+      [
+        "لون الستراب",
+        "أسود"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l248m0085/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L305M0015",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L305M0015",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L305M0015",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_6.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_8.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l305m0015-just-cavalli-watch-signature-snake-women-blue-dial-silver-stainless-steel-strap-double-wrap-bracelet-crystals_4.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "9 مم"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "40 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L305M0015"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون الستراب",
+        "فضي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l305m0015/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L306M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L306M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L306M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_6.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l306m0055-just-cavalli-watch-signature-snake-women-green-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-crystals_8.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "معين"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "13 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "42 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L306M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون الستراب",
+        "وردي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l306m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L326M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L326M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L326M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-5.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "20 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "35 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L326M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l326m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L326M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L326M0025",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L326M0025",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0025-just-cavalli-watch-signature-snake-women-gold-dial-stainless-steel-strap-double-wrap-bracelet_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-4.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ذهبي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "20 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "35 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L326M0025"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l326m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L322M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L322M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L322M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0055-just-cavalli-watch-signature-snake-women-silver-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-3.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "36 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L322M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l322m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L322M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L322M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L322M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_7.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l322m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-double-wrap-bracelet-crystals_9.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "بيضاوي"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "32 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "36 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L322M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l322m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L370M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L370M0035",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L370M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l370m0035-just-cavalli-watch-signature-snake-women-green-dial-gold-stainless-steel-strap-triple-wrap-crystals_6.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "12 مم"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "61 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L370M0035"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l370m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L326M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L326M0065",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L326M0065",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-two-tone.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-two-tone_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-two-tone_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0065-just-cavalli-watch-signature-snake-women-silver-dial-rose-gold-stainless-steel-strap-double-wrap-bracelet-two-tone_4.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box-1.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "20 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "35 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L326M0065"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l326m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L326M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L326M0055",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L326M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0055-just-cavalli-watch-signature-snake-women-white-dial-silver-gold-stainless-steel-strap-double-wrap-bracelet-two-tone-mother-of-pearl.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0055-just-cavalli-watch-signature-snake-women-white-dial-silver-gold-stainless-steel-strap-double-wrap-bracelet-two-tone-mother-of-pearl_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0055-just-cavalli-watch-signature-snake-women-white-dial-silver-gold-stainless-steel-strap-double-wrap-bracelet-two-tone-mother-of-pearl_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0055-just-cavalli-watch-signature-snake-women-white-dial-silver-gold-stainless-steel-strap-double-wrap-bracelet-two-tone-mother-of-pearl_5.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0055-just-cavalli-watch-signature-snake-women-white-dial-silver-gold-stainless-steel-strap-double-wrap-bracelet-two-tone-mother-of-pearl_6.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "ابيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي و ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "20 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "35 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L326M0055"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l326m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L326M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L326M0045",
+    "name": "ساعة جست كافالي Just Cavalli للنساء JC1L326M0045",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0045-just-cavalli-watch-signature-snake-women-rose-gold-dial-stainless-steel-strap-double-wrap-bracelet.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0045-just-cavalli-watch-signature-snake-women-rose-gold-dial-stainless-steel-strap-double-wrap-bracelet_2.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/jc1l326m0045-just-cavalli-watch-signature-snake-women-rose-gold-dial-stainless-steel-strap-double-wrap-bracelet_3.webp",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/06/just-cavalli-watch-box.webp"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جست كافالي سيجنتشر سنيك"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعة",
+        "دائرية"
+      ],
+      [
+        "نوع العرض",
+        "نظرية"
+      ],
+      [
+        "لون المينا",
+        "نحاسي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستانليس ستيل"
+      ],
+      [
+        "عرض الاستيك",
+        "10 مم"
+      ],
+      [
+        "القُطر",
+        "20 مم"
+      ],
+      [
+        "السُمك",
+        "7 مم"
+      ],
+      [
+        "الوزن",
+        "35 جرام"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "التصميم",
+        "جست كافالي"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "كود المنتج",
+        "JC1L326M0045"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l326m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L229M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L229M0075",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L229M0075",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6050.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6052.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6051.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L229M0075"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-7/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L302M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L302M0045",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L302M0045",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6040.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6042.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6041.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L302M0045"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l3-2/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L271M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L271M0065",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L271M0065",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_130013.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_130013.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_130013.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_003_20250913_130013.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L271M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-5/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L271M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L271M0045",
+    "name": "‏‎ساعة جست كافالي للنساء JC1L271M0045",
+    "price": 5750,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5974.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5976.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5975.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L271M0045"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l271m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L305M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L305M0055",
+    "name": "‎ساعة جست كافالي للنساء JC1L305M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_124218.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_124218.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_003_20250913_124218.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_124218.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L305M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l305m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L225M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L225M0055",
+    "name": "ساعة جست كافالي للنساء JC1L225M0055",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_220131.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_220131.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_220131.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L225M0055"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l225m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L228M0085",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L228M0085",
+    "name": "ساعة جست كافالي للنساء JC1L228M0085",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250912_173838.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250912_172902.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250912_172902.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L228M0085"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l228m0085/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L227M0085",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L227M0085",
+    "name": "ساعة جست كافالي للنساء JC1L227M0085",
+    "price": 5350,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5888.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5889.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5890.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أزرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L227M0085"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l227m0085/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L304M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L304M0045",
+    "name": "ساعة جست كافالي للنساء JC1L304M0045",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5884.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5885-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5886-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "ازرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "56 جرام"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L304M0045"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l304m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L304M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L304M0075",
+    "name": "ساعة جست كافالي للنساء JC1L304M0075",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_20250912_201309.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5868.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5869.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L304M0075"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l304m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L269M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L269M0065",
+    "name": "ساعة جست كافالي للنساء JC1L269M0065",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5872.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5873.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5874.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * نحاسي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "28.7 مم"
+      ],
+      [
+        "السُمك",
+        "8.5 مم"
+      ],
+      [
+        "الوزن",
+        "48 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L269M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l269m0065/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0035",
+    "name": "ساعة جست كافالي للنساء JC1L251M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/08/JC1L251M0035-2.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أسود"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "جولد * اخضر"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "43 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l251m0035/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L228M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L228M0025",
+    "name": "ساعة جست كافالي للنساء jc1L228M0025",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/08/MP000000014411812_1316Wx1468H_202209101735252_1800x1800.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-37.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-32.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-29.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أزرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "40 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "jc1L228M0025"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l228m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L269M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L269M0055",
+    "name": "ساعة جست كافالي للنساء JC1L269M0055",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-51.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-32.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-27.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أبيض"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "28.7 مم"
+      ],
+      [
+        "السُمك",
+        "8.5 مم"
+      ],
+      [
+        "الوزن",
+        "48 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L269M0055"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l269m0055/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L301M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L301M0045",
+    "name": "ساعة جست كافالي للنساء JC1L301M0045",
+    "price": 5900,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-68.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-50.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-45.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-32.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "فضي"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "روز جولد"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "36 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L301M0045"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l301m0045/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L230M0025",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L230M0025",
+    "name": "ساعة جست كافالي للنساء JC1L230M0025",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-56.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-37.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-32.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أزرق"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "40 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L230M0025"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l230m0025/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L228M0075",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L228M0075",
+    "name": "ساعة جست كافالي للنساء JC1L228M0075",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/photoroom_000_20250912_205851.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5895.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/img_5894.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جاست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جاست كافالي"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظري"
+      ],
+      [
+        "لون المينا",
+        "أزرق"
+      ],
+      [
+        "نوع السير",
+        "مِلكِي"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "40 جوهرة"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعمًا"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "فقط كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L228M0075"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l228m0075/",
+    "availability": "in",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L305M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L305M0035",
+    "name": "ساعة جست كافالي للنساء JC1L305M0035",
+    "price": 5400,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-55.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-31.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-36.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "جاست كافالي"
+      ],
+      [
+        "نوع الموديل",
+        "جاست كافالي"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظري"
+      ],
+      [
+        "لون المينا",
+        "أخضر"
+      ],
+      [
+        "نوع السير",
+        "مِلكِي"
+      ],
+      [
+        "لون السير",
+        "ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23.5 مم"
+      ],
+      [
+        "السُمك",
+        "10 مم"
+      ],
+      [
+        "الوزن",
+        "48 مربى"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعمًا"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L305M0035"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "لون الستراب",
+        "ذهبي"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%b3%d8%aa-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-jc1l305m0035/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0255",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0255",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0255",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6034.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6036.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6035.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0255"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1-6/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0235",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0235",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0235",
+    "price": 5700,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_002_20250913_130325.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_000_20250913_130325.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/photoroom_001_20250913_130325.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0235"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L304M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L304M0065",
+    "name": "ساعة جست كافالي للنساء JC1L304M0065",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5878.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5879.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5880.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5855-2.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "اخضر"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "فضي * ذهبي"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "23 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "14 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L304M0065"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l304/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L305M0065",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L305M0065",
+    "name": "‎ساعة جست كافالي للنساء JC1L305M0065",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5971-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5972-scaled.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5973-scaled.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L305M0065"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "نوع الحركة",
+        "كوارتز (بطارية)"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l305m0065/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L251M0055",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L251M0055",
+    "name": "ساعة جست كافالي للنساء JC1L251M0055",
+    "price": 5545,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-1-21.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-2-19.jpg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/07/image-3-18.jpg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "Just Cavalli"
+      ],
+      [
+        "نوع الموديل",
+        "Just Cavalli"
+      ],
+      [
+        "النوع",
+        "للنساء"
+      ],
+      [
+        "شكل الساعه",
+        "قطرة"
+      ],
+      [
+        "نوع العرض",
+        "نظرى"
+      ],
+      [
+        "لون المينا",
+        "أسود"
+      ],
+      [
+        "نوع السير",
+        "معدن"
+      ],
+      [
+        "لون السير",
+        "روز جولد * بني"
+      ],
+      [
+        "مادة صنع السير",
+        "ستنالس ستيل"
+      ],
+      [
+        "القُطر",
+        "22 مم"
+      ],
+      [
+        "السُمك",
+        "8 مم"
+      ],
+      [
+        "الوزن",
+        "43 جم"
+      ],
+      [
+        "التاريخ",
+        "أيام الشهر"
+      ],
+      [
+        "مقاومة الماء",
+        "نعم"
+      ],
+      [
+        "نوع الحركة",
+        "بطارية (كوارتز)"
+      ],
+      [
+        "التصميم",
+        "جاست كفالي"
+      ],
+      [
+        "كود المنتج",
+        "JC1L251M0055"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "الشحن",
+        "جميع محافظات مصر"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l251m0055/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L163M0045",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L163M0045",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L163M0045",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6024.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6025.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_6026.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L163M0045"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l1-4/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L271M0015",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L271M0015",
+    "name": "‎‏‎ساعة جست كافالي للنساء JC1L271M0015",
+    "price": 5650,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5991.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5993.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5992.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L271M0015"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الخامة",
+        "ستانلس ستيل"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/%d8%ac%d8%a7%d8%b3%d8%aa-%d9%83%d9%81%d8%a7%d9%84%d9%8a-just-cavalli-%d9%84%d9%84%d9%86%d8%b3%d8%a7%d8%a1-%d8%a3%d8%b5%d9%84%d9%8a%d8%a9-%d9%85%d9%88%d8%af%d9%8a%d9%84-jc1l2-3/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  },
+  {
+    "id": "women-JUST CAVALLI-JC1L225M0035",
+    "brand": "JUST CAVALLI",
+    "gender": "women",
+    "model": "JC1L225M0035",
+    "name": "ساعة جست كافالي للنساء JC1L225M0035",
+    "price": 5550,
+    "images": [
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5937.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5938.jpeg",
+      "https://cdnx.elshroukwatches.com/wp-content/uploads/2025/09/img_5939.jpeg"
+    ],
+    "specs": [
+      [
+        "الماركة",
+        "JUST CAVALLI"
+      ],
+      [
+        "كود المنتج",
+        "JC1L225M0035"
+      ],
+      [
+        "النوع",
+        "حريمي"
+      ],
+      [
+        "نوع السوار",
+        "معدن"
+      ],
+      [
+        "نوع الساعة",
+        "Original"
+      ],
+      [
+        "الضمان",
+        "سنتان من تاريخ الشراء على ماكينة الساعة فقط"
+      ],
+      [
+        "ملاحظة المواصفات",
+        "المواصفات التفصيلية غير مكتملة في المصدر؛ المعروض هو البيانات المتاحة."
+      ]
+    ],
+    "pick": false,
+    "sourceUrl": "https://elshroukwatches.com/product/jc1l225m0035/",
+    "availability": "out",
+    "availabilityAsOf": "2026-09-27"
+  }
+];
+  const ids=new Set(products.map(p=>p.id));
+  catalog.add=(catalog.add||[]).filter(p=>!ids.has(p.id));
+  catalog.update=catalog.update||{};
+  for(const p of products){catalog.add.push(p);catalog.update[p.id]=Object.assign({},catalog.update[p.id]||{},p);}
+})();
