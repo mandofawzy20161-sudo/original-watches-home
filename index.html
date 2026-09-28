@@ -87,7 +87,24 @@ nav{align-items:center}nav .category-nav{border:0;background:transparent;color:i
 @media(max-width:600px){.purchase-benefits{padding:12px 4px}.purchase-benefits>div{padding:4px 6px}.purchase-benefits strong{font-size:13px}.purchase-benefits small{font-size:11px}}
 @media(max-width:360px){.purchase-benefits{grid-template-columns:1fr;padding:6px 16px}.purchase-benefits>div{padding:12px 0}.purchase-benefits>div+div{border-inline-start:0;border-top:1px solid #ffffff30}}
 </style>
+<!-- Meta Pixel: Original Watches EG -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+// Events are explicit; do not collect form fields or automatic button events.
+fbq('set', 'autoConfig', false, '28531163386545850');
+fbq('init', '28531163386545850');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel -->
 </head><body>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=28531163386545850&amp;ev=PageView&amp;noscript=1"></noscript>
 <div class="topnote">ORIGINAL WATCHES EG — تفاصيل صغيرة. حضور مختلف.</div>
 <header><a href="#" class="logo" id="homeLogo">ORIGINAL WATCHES<small>E G Y P T · WATCH COLLECTION</small></a><nav><a href="#featured" data-home="featured">اختيارات مميزة</a><button type="button" class="category-nav" data-catalog="men">رجالي</button><button type="button" class="category-nav" data-catalog="women">حريمي</button></nav><a class="contact" href="https://wa.me/201011926183" target="_blank" rel="noopener">تواصل معنا ↗</a></header>
 <main class="wrap"><div id="home"><section class="hero"><div class="hero-copy"><h1>مش مجرد ساعة.<br><span>دي تفاصيلك.</span></h1><p>اكتشف اختياراتنا من الساعات الرجالي والحريمي.<br>براندات متنوعة، وتفاصيل تكمّل كل إطلالة.</p><div class="actions"><a class="btn gold" href="#featured">اكتشف المجموعة ←</a><button class="btn outline" data-catalog="all">كل الساعات</button><a class="btn outline" href="#shopping-guide">إزاي تطلب؟ ▶</a></div></div><button type="button" class="hero-art hero-product" id="heroProduct" aria-label="عرض تفاصيل الساعة"><img id="heroImage" alt="ساعة من المجموعة" fetchpriority="high"><span class="hero-product-hint">اضغط لمعرفة السعر والتفاصيل ←</span></button></section>
@@ -129,6 +146,23 @@ for(const newProduct of (CATALOG_UPDATES.add||[])){
 }
 
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),money=n=>new Intl.NumberFormat('ar-EG').format(n)+' ج.م';
+// Meta event payloads contain product data only, never customer details.
+function owMetaTrack(eventName, data){
+  try{if(typeof window.fbq==='function')window.fbq('track',eventName,data||{})}catch(_){/* Tracking must not interrupt shopping. */}
+}
+function owMetaItems(rows){
+  const contents=(rows||[]).map(row=>({id:String(row.product.id),quantity:Number(row.qty),item_price:Number(row.product.price)}))
+    .filter(row=>Number.isInteger(row.quantity)&&row.quantity>0&&Number.isFinite(row.item_price)&&row.item_price>=0);
+  return {content_type:'product',content_ids:contents.map(row=>row.id),contents,currency:'EGP',
+    value:Math.round(contents.reduce((sum,row)=>sum+row.item_price*row.quantity,0)*100)/100,
+    num_items:contents.reduce((sum,row)=>sum+row.quantity,0)};
+}
+function owMetaProduct(eventName,p,qty=1){
+  const data=owMetaItems([{product:p,qty}]);
+  data.content_name=String(p.brand||'')+' '+String(p.model||'');
+  owMetaTrack(eventName,data);
+}
+
 const picks=PRODUCTS.filter(p=>p.pick);let activeBrand='all',limit=24;
 function picture(url,alt,lazy=true){return `<img src="${esc(url)}" alt="${esc(alt)}" ${lazy?'loading="lazy"':''} onerror="this.classList.add('broken')"><span class="errorlabel">الصورة غير متاحة حاليًا</span>`}
 function stockText(p){return p.availability==='in'?'متوفرة':p.availability==='out'?'مش متوفرة':'اسأل عن التوفر'}
@@ -308,7 +342,7 @@ if(updateUrl){
  const u=new URL(window.location.href);
  u.searchParams.set('product',String(p.id));
  history.pushState({product:String(p.id)},'',u.pathname+u.search+u.hash);
-}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':'حريمي'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':'حريمي'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${money(p.price)}</div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal()}
+}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':'حريمي'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':'حريمي'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${money(p.price)}</div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-product],[data-catalog],[data-brand],[data-image],[data-home]');if(!el)return;if(el.dataset.product)detail(el.dataset.product);else if(el.dataset.catalog)catalog(el.dataset.catalog);else if(el.dataset.brand){activeBrand=el.dataset.brand;limit=24;render()}else if(el.dataset.image)$('detailImage').src=el.dataset.image;else if(el.dataset.home){e.preventDefault();home(el.dataset.home)}});
 $('closeDialog').onclick=()=>{
  $('productDialog').close();
@@ -388,17 +422,33 @@ const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgb
     const b=e.target.closest('[data-cart-add],[data-cart-open],[data-cart-close],[data-cart-plus],[data-cart-minus],[data-cart-remove]');if(!b)return;
     if(b.hasAttribute('data-cart-open'))return open();
     if(b.hasAttribute('data-cart-close'))return get('cartDialog').close();
-    if(b.hasAttribute('data-cart-add')){const id=b.dataset.cartAdd,p=byId.get(id);if(!p)return;if(p.availability==='out')return toast('الساعة مش متوفرة حاليًا.');const r=cart.find(r=>r.id===id);if(r){if(r.qty>=MAX_QTY)return toast('للطلبيات الأكبر، تواصل معنا عبر واتساب.');r.qty++}else{if(cart.length>=MAX_LINES)return toast('الحد الأقصى ٢٠ موديل في الطلب. تواصل معنا للطلبيات الأكبر.');cart.push({id,qty:1})}persist();return toast('اتضافت '+p.brand+' '+p.model+' للسلة')}
+    if(b.hasAttribute('data-cart-add')){const id=b.dataset.cartAdd,p=byId.get(id);if(!p)return;if(p.availability==='out')return toast('الساعة مش متوفرة حاليًا.');const r=cart.find(r=>r.id===id);if(r){if(r.qty>=MAX_QTY)return toast('للطلبيات الأكبر، تواصل معنا عبر واتساب.');r.qty++}else{if(cart.length>=MAX_LINES)return toast('الحد الأقصى ٢٠ موديل في الطلب. تواصل معنا للطلبيات الأكبر.');cart.push({id,qty:1})}persist();owMetaProduct('AddToCart',p,1);return toast('اتضافت '+p.brand+' '+p.model+' للسلة')}
     const id=b.dataset.cartPlus||b.dataset.cartMinus||b.dataset.cartRemove,r=cart.find(r=>r.id===id);if(!r)return;
+    const oldQty=r.qty;
     if(b.hasAttribute('data-cart-remove'))cart=cart.filter(r=>r.id!==id);else r.qty=Math.max(1,Math.min(MAX_QTY,r.qty+(b.hasAttribute('data-cart-plus')?1:-1)));
     const attribute=b.hasAttribute('data-cart-plus')?'data-cart-plus':b.hasAttribute('data-cart-minus')?'data-cart-minus':'data-cart-remove';persist();
+    if(b.hasAttribute('data-cart-plus')&&r.qty>oldQty)owMetaProduct('AddToCart',byId.get(id),r.qty-oldQty);
     const focus=[...get('cartBody').querySelectorAll('['+attribute+']')].find(el=>el.getAttribute(attribute)===id&&!el.disabled);(focus||get('closeCart')).focus();
   });
-  document.addEventListener('change',e=>{if(!e.target.matches('[data-cart-qty]'))return;const r=cart.find(r=>r.id===e.target.dataset.cartQty);if(!r)return;const n=Number(e.target.value);if(!Number.isInteger(n)||n<1||n>MAX_QTY){e.target.value=r.qty;return toast('الكمية تكون رقمًا صحيحًا من ١ إلى ٢٠.')}r.qty=n;persist()});
+  document.addEventListener('change',e=>{if(!e.target.matches('[data-cart-qty]'))return;const r=cart.find(r=>r.id===e.target.dataset.cartQty);if(!r)return;const n=Number(e.target.value);if(!Number.isInteger(n)||n<1||n>MAX_QTY){e.target.value=r.qty;return toast('الكمية تكون رقمًا صحيحًا من ١ إلى ٢٠.')}const delta=n-r.qty;r.qty=n;persist();if(delta>0)owMetaProduct('AddToCart',byId.get(r.id),delta)});
+  // Checkout opens an external Google Apps Script page. A click is not a Purchase.
+  // Purchase must be implemented in that app after the order is saved successfully.
+  function trackCheckoutLink(e){
+    if(e.type==='auxclick'&&e.button!==1)return;
+    const a=e.target.closest('a[href]');if(!a)return;
+    if(a.id==='cartCheckout'){
+      if(!cart.length||!checkoutUrl())return;
+      owMetaTrack('InitiateCheckout',owMetaItems(cart.map(r=>({product:byId.get(r.id),qty:r.qty}))));
+    }else if(a.href.startsWith('https://wa.me/')){
+      owMetaTrack('Contact',{contact_method:'WhatsApp'});
+    }
+  }
+  document.addEventListener('click',trackCheckoutLink);
+  document.addEventListener('auxclick',trackCheckoutLink);
   get('closeCart').onclick=()=>get('cartDialog').close();
   get('cartDialog').addEventListener('click',e=>{if(e.target!==get('cartDialog'))return;const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()});
   window.addEventListener('storage',e=>{if(e.key===KEY||e.key===null){cart=read();update()}});
-  const oldDetail=detail;detail=function(id){oldDetail(id);const p=byId.get(id);if(!p)return;get('productContent').querySelector('.whatsapp').insertAdjacentHTML('beforebegin',`<button type="button" class="cart-add" data-cart-add="${esc(id)}" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button><button type="button" class="cardbutton" data-cart-open>عرض السلة وإتمام الطلب</button>`)};
+  const oldDetail=detail;detail=function(id,updateUrl=true){oldDetail(id,updateUrl);const p=byId.get(id);if(!p)return;get('productContent').querySelector('.whatsapp').insertAdjacentHTML('beforebegin',`<button type="button" class="cart-add" data-cart-add="${esc(id)}" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button><button type="button" class="cardbutton" data-cart-open>عرض السلة وإتمام الطلب</button>`)};
   update();
 })();
 </script>
