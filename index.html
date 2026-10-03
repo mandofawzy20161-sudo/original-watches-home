@@ -133,7 +133,7 @@ fbq('track', 'PageView');
 .ow-shop-nav :focus-visible{outline:2px solid #c5a56b;outline-offset:-3px}
 @media(max-width:600px){.ow-shop-nav-inner{padding:0 6px;gap:0;justify-content:space-between}.ow-shop-top,.ow-shop-dropdown>summary{padding:14px 7px;font-size:12px;gap:4px}.ow-shop-panel{width:210px;max-height:65dvh}.ow-shop-dropdown:last-child .ow-shop-panel{right:auto;left:0}}
 </style>
-</head><body>
+<style>.ow-shop-panel a,.ow-shop-brand>summary{font-size:16px;font-weight:700;color:#142d34;padding:12px 18px}.ow-shop-panel{width:260px}.brandchip{font-size:15px;font-weight:700;color:#142d34;padding:12px 16px}.collection-label{font-size:12px;color:#596b70;margin-inline-start:6px}@media(max-width:600px){.ow-shop-panel{width:230px}.ow-shop-panel a,.ow-shop-brand>summary{font-size:15px}}</style></head><body>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=28531163386545850&amp;ev=PageView&amp;noscript=1"></noscript>
 <div class="topnote">ORIGINAL WATCHES EG — تفاصيل صغيرة. حضور مختلف.</div>
 <header><a href="#" class="logo" id="homeLogo">ORIGINAL WATCHES<small>E G Y P T · WATCH COLLECTION</small></a><nav><a href="#featured" data-home="featured">اختيارات مميزة</a></nav><a class="contact" href="https://wa.me/201011926183" target="_blank" rel="noopener">تواصل معنا ↗</a></header><nav class="ow-shop-nav" aria-label="أقسام الساعات"><div class="ow-shop-nav-inner">
@@ -161,6 +161,7 @@ fbq('track', 'PageView');
 <script src="products-4.js"></script>
 <script src="products-5.js"></script>
 <script src="catalog-updates.js?v=20260929-strap-specs"></script>
+<script src="mirror-products.js"></script><script src="mirror-catalog-updates.js"></script>
 <script>
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
 
@@ -180,11 +181,19 @@ for(const newProduct of (CATALOG_UPDATES.add||[])){
   }
 }
 
+const ORIGINAL_PRODUCTS=PRODUCTS.slice();
+const mirrorUpdates=window.MIRROR_CATALOG_UPDATES||{};
+const mirrorRemoved=new Set((mirrorUpdates.remove||[]).map(String));
+for(const p of (window.__MIRROR_PRODUCTS_PARTS||[]).flat())if(!mirrorRemoved.has(String(p.id)))PRODUCTS.push(Object.assign({},p,(mirrorUpdates.update||{})[p.id]||{}));
+for(const p of mirrorUpdates.add||[])if(p&&p.id&&!PRODUCTS.some(x=>x.id===p.id))PRODUCTS.push(p);
+let collectionScope=new URLSearchParams(location.search).get('collection')==='original'?'original':'all';
+function catalogProducts(){return collectionScope==='original'?ORIGINAL_PRODUCTS:PRODUCTS;}
+
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),money=n=>new Intl.NumberFormat('ar-EG').format(n)+' ج.م';
-function offerPrice(value){
+function offerPrice(value,isMirror=false){
   const current=Number(value);
   if(!Number.isFinite(current)||current<=0)return money(value);
-  const comparison=Math.round(current*105)/100;
+  const comparison=isMirror?current+100:Math.round(current*105)/100;
   return `<span class="ow-price-pair"><span class="ow-sale-price">${money(current)}</span><del class="ow-compare-price" aria-label="السعر قبل العرض">${money(comparison)}</del></span>`;
 }
 
@@ -211,7 +220,7 @@ function stockText(p){return p.availability==='in'?'متوفرة':p.availability
 function stockDate(p){return p.availabilityAsOf?new Intl.DateTimeFormat('ar-EG',{day:'numeric',month:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(p.availabilityAsOf+'T12:00:00Z')):''}
 function stockBadge(p){return `<span class="stock-label ${p.availability==='in'?'in':p.availability==='out'?'out':'unknown'}">${stockText(p)}${p.availabilityAsOf?`<small style="display:block;font-size:9px;margin-top:3px">آخر تحديث ${stockDate(p)}</small>`:''}</span>`}
 const DELIVERY_HTML='<div class="delivery-box"><strong>شحن مجاني لجميع المحافظات</strong><p>القاهرة: من يوم إلى يومين.<br>باقي المحافظات: من يومين إلى ٣ أيام.</p><p>بعد تسجيل بيانات الطلب، يتم التواصل مع العميل لتأكيد التوفر وتفاصيل الطلب، ومتابعة الطلب حتى الاستلام.</p></div>';
-function card(p){return `<article class="card"><button class="photo" data-product="${esc(p.id)}" aria-label="عرض ${esc(p.brand+' '+p.model)}">${picture(p.images[0],p.brand+' '+p.model)}${stockBadge(p)}<span class="tag">${p.gender==='men'?'رجالي':'حريمي'}</span></button><div class="info"><div class="brand">${esc(p.brand)}</div><h3>${esc(p.model)}</h3><div class="price">${offerPrice(p.price)}</div><button class="cardbutton" data-product="${esc(p.id)}">عرض الساعة ←</button><button class="cart-add" type="button" data-cart-add="${esc(p.id)}" aria-label="إضافة ${esc(p.brand+' '+p.model)} إلى السلة" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button></div></article>`}
+function card(p){return `<article class="card"><button class="photo" data-product="${esc(p.id)}" aria-label="عرض ${esc(p.brand+' '+p.model)}">${picture(p.images[0],p.brand+' '+p.model)}${stockBadge(p)}<span class="tag">${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span></button><div class="info"><div class="brand">${esc(p.brand)} <span class="collection-label">${String(p.id).startsWith('mirror-')?'ميرور':'أصلية'}</span></div><h3>${esc(p.model)}</h3><div class="price">${offerPrice(p.price,String(p.id).startsWith('mirror-'))}</div><button class="cardbutton" data-product="${esc(p.id)}">عرض الساعة ←</button><button class="cart-add" type="button" data-cart-add="${esc(p.id)}" aria-label="إضافة ${esc(p.brand+' '+p.model)} إلى السلة" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button></div></article>`}
 // Daily selections use Egypt's calendar, independent of the visitor's time zone.
 function cairoDay(now=new Date()){
   const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
@@ -305,12 +314,14 @@ function setCatalogBrowserState(g,updateUrl=true){
     const value=$(id).value;
     if(key==='category'||value!==fallback)u.searchParams.set(key,value);
   }
+  if(collectionScope==='original')u.searchParams.set('collection','original');else u.searchParams.delete('collection');
   if(activeBrand!=='all')u.searchParams.set('brand',activeBrand);
   if($('search').value.trim())u.searchParams.set('q',$('search').value.trim());
   u.hash='';
   if(u.href!==location.href)history.pushState({category:g},'',u.pathname+u.search);
 }
 function catalog(g,updateUrl=true){
+  collectionScope='all';
   $('home').classList.add('hidden');
   $('catalog').classList.remove('hidden');
   for(const [id,,fallback] of CATALOG_URL_FIELDS)$(id).value=fallback;
@@ -321,6 +332,7 @@ function catalog(g,updateUrl=true){
 }
 function restoreCatalogLocation(){
   const params=new URLSearchParams(location.search);
+  collectionScope=params.get('collection')==='original'?'original':'all';
   if(CATALOG_URL_KEYS.some(key=>key!=='product'&&params.has(key))){
     $('home').classList.add('hidden');$('catalog').classList.remove('hidden');
     for(const [id,key,fallback] of CATALOG_URL_FIELDS){
@@ -400,13 +412,13 @@ function strapTypes(product){
  strapTypeCache.set(product,result);return result;
 }
 
-function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(PRODUCTS.filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=PRODUCTS.filter(p=>($('stockFilter').value==='all'||p.availability===$('stockFilter').value)&&(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));const strapCounts={all:result.length};for(const p of result){const t=strapTypes(p)[0];strapCounts[t]=(strapCounts[t]||0)+1}const strapLabels={all:'كل أنواع الاستراب',rubber:'ربر / سيليكون',leather:'جلد',metal:'معدن / ستانلس ستيل',fabric:'قماش / نايلون',ceramic:'سيراميك',mixed:'خامات مختلطة',unknown:'غير محدد'};for(const option of $('strapFilter').options)option.textContent=strapLabels[option.value]+' ('+(strapCounts[option.value]||0)+')';result=result.filter(p=>$('strapFilter').value==='all'||strapTypes(p).includes($('strapFilter').value));result=catalogOrder(result,$('sort').value);lastCatalogPeriod=catalogPeriod();const showAllBrand=activeBrand!=='all';const shown=showAllBrand?result.length:Math.min(limit,result.length);$('count').textContent=`${result.length} ساعة · عرض ${shown}`;$('catalogGrid').innerHTML=result.length?(showAllBrand?result:result.slice(0,limit)).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب نوع استراب أو براند تاني، أو اختار كل أنواع الاستراب.</p>';$('loadMore').classList.toggle('hidden',showAllBrand||limit>=result.length)}
+function render(){const q=$('search').value.trim().toLowerCase(),g=$('gender').value;const brands=[...new Set(catalogProducts().filter(p=>g==='all'||p.gender===g).map(p=>p.brand))];if(!brands.includes(activeBrand))activeBrand='all';$('brandFilters').innerHTML=['all',...brands].map(b=>`<button class="brandchip ${b===activeBrand?'active':''}" data-brand="${esc(b)}" aria-pressed="${b===activeBrand}">${b==='all'?'كل البراندات':esc(b)}</button>`).join('');let result=catalogProducts().filter(p=>($('stockFilter').value==='all'||p.availability===$('stockFilter').value)&&(g==='all'||p.gender===g)&&(activeBrand==='all'||p.brand===activeBrand)&&`${p.model} ${p.brand} ${p.name}`.toLowerCase().includes(q));const strapCounts={all:result.length};for(const p of result){const t=strapTypes(p)[0];strapCounts[t]=(strapCounts[t]||0)+1}const strapLabels={all:'كل أنواع الاستراب',rubber:'ربر / سيليكون',leather:'جلد',metal:'معدن / ستانلس ستيل',fabric:'قماش / نايلون',ceramic:'سيراميك',mixed:'خامات مختلطة',unknown:'غير محدد'};for(const option of $('strapFilter').options)option.textContent=strapLabels[option.value]+' ('+(strapCounts[option.value]||0)+')';result=result.filter(p=>$('strapFilter').value==='all'||strapTypes(p).includes($('strapFilter').value));result=catalogOrder(result,$('sort').value);lastCatalogPeriod=catalogPeriod();const showAllBrand=activeBrand!=='all';const shown=showAllBrand?result.length:Math.min(limit,result.length);$('count').textContent=`${result.length} ساعة · عرض ${shown}`;$('catalogGrid').innerHTML=result.length?(showAllBrand?result:result.slice(0,limit)).map(card).join(''):'<p class="empty">مفيش نتائج مطابقة. جرّب نوع استراب أو براند تاني، أو اختار كل أنواع الاستراب.</p>';$('loadMore').classList.toggle('hidden',showAllBrand||limit>=result.length)}
 function detail(id,updateUrl=true){const p=PRODUCTS.find(p=>String(p.id)===String(id));if(!p)return;
 if(updateUrl){
  const u=new URL(window.location.href);
  u.searchParams.set('product',String(p.id));
  history.pushState({product:String(p.id)},'',u.pathname+u.search+u.hash);
-}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':'حريمي'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':'حريمي'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price)}</div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
+}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price,String(p.id).startsWith('mirror-'))}</div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-product],[data-catalog],[data-brand],[data-image],[data-home]');if(!el)return;if(el.dataset.product)detail(el.dataset.product);else if(el.dataset.catalog)catalog(el.dataset.catalog);else if(el.dataset.brand){activeBrand=el.dataset.brand;limit=24;render();setCatalogBrowserState($('gender').value)}else if(el.dataset.image)$('detailImage').src=el.dataset.image;else if(el.dataset.home){e.preventDefault();home(el.dataset.home)}});
 $('closeDialog').onclick=()=>$('productDialog').close();
 $('productDialog').addEventListener('close',()=>{
@@ -429,7 +441,7 @@ $('loadMore').onclick=()=>{limit+=24;render()};
 setTimeout(restoreCatalogLocation,0);
 window.addEventListener('popstate',restoreCatalogLocation);
 </script>
-<script src="mirror-products.js"></script><script src="mirror-catalog-updates.js"></script><script>
+<script>
 function owSharedCatalog(parts,updates){const removed=new Set((updates.remove||[]).map(String));const rows=parts.flat().filter(p=>!removed.has(String(p.id))).map(p=>Object.assign({},p,(updates.update||{})[p.id]||{}));for(const p of updates.add||[])if(p&&p.id&&!rows.some(r=>r.id===p.id))rows.push(p);return rows;}
 const OW_CART_PRODUCTS=owSharedCatalog(window.__OW_PRODUCTS_PARTS||[],window.CATALOG_UPDATES||{}).concat(owSharedCatalog(window.__MIRROR_PRODUCTS_PARTS||[],window.MIRROR_CATALOG_UPDATES||{}));
 </script>
@@ -531,9 +543,9 @@ dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.g
  const bar=document.querySelector('.ow-shop-nav'),menus=[...bar.querySelectorAll('.ow-shop-dropdown')];
  const base='https://www.originalwatcheseg.com/mirror.html';
  const original=document.getElementById('ow-original-brands');
- const originalLink=(brand,gender,label)=>{const a=document.createElement('a');const u=new URL(location.href);u.search='';u.hash='';u.searchParams.set('category',gender);if(brand)u.searchParams.set('brand',brand);a.href=u.pathname+u.search;a.textContent=label;a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();catalog(gender,false);activeBrand=brand||'all';render();setCatalogBrowserState(gender);menus.forEach(m=>m.open=false)});return a};
+ const originalLink=(brand,gender,label)=>{const a=document.createElement('a');const u=new URL(location.href);u.search='';u.hash='';u.searchParams.set('category',gender);u.searchParams.set('collection','original');if(brand)u.searchParams.set('brand',brand);a.href=u.pathname+u.search;a.textContent=label;a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();catalog(gender,false);collectionScope='original';activeBrand=brand||'all';render();setCatalogBrowserState(gender);menus.forEach(m=>m.open=false)});return a};
  original.append(originalLink('','all','كل الساعات الأصلية'));
- [...new Set(PRODUCTS.map(p=>p.brand).filter(Boolean))].forEach(brand=>{const d=document.createElement('details');d.className='ow-shop-brand';const summary=document.createElement('summary');summary.textContent=brand;d.append(summary);const links=document.createElement('div');links.className='ow-shop-genders';links.append(originalLink(brand,'all','كل الموديلات'));for(const [g,label] of [['men','رجالي'],['women','حريمي']])if(PRODUCTS.some(p=>p.brand===brand&&(p.gender===g||p.gender==='unisex')))links.append(originalLink(brand,g,label));d.append(links);d.addEventListener('toggle',()=>{if(d.open)original.querySelectorAll('details').forEach(other=>{if(other!==d)other.open=false})});original.append(d)});
+ [...new Set(ORIGINAL_PRODUCTS.map(p=>p.brand).filter(Boolean))].forEach(brand=>{const d=document.createElement('details');d.className='ow-shop-brand';const summary=document.createElement('summary');summary.textContent=brand;d.append(summary);const links=document.createElement('div');links.className='ow-shop-genders';links.append(originalLink(brand,'all','كل الموديلات'));for(const [g,label] of [['men','رجالي'],['women','حريمي']])if(ORIGINAL_PRODUCTS.some(p=>p.brand===brand&&(p.gender===g||p.gender==='unisex')))links.append(originalLink(brand,g,label));d.append(links);d.addEventListener('toggle',()=>{if(d.open)original.querySelectorAll('details').forEach(other=>{if(other!==d)other.open=false})});original.append(d)});
  const mirror=document.getElementById('ow-mirror-brands');
  for(const [label,brand,gender] of [['كل ساعات الميرور','','all'],['Rolex — رجالي','ROLEX','men'],['Rolex — حريمي','ROLEX','women'],['Cartier','CARTIER','all'],['Hublot','HUBLOT','all'],['Casio','CASIO','all'],['Omega','OMEGA','all'],['Patek Philippe','PATEK PHILIPPE','all'],['Tissot','TISSOT','all'],['Audemars Piguet','AUDEMARS PIGUET','all'],['بوكس رولكس','ROLEX','accessory']]){const a=document.createElement('a'),u=new URL(base);u.searchParams.set('category',gender);if(brand)u.searchParams.set('brand',brand);a.href=u.href;a.textContent=label;mirror.append(a)}
  menus.forEach(menu=>{menu.addEventListener('toggle',()=>{if(menu.open)menus.forEach(other=>{if(other!==menu)other.open=false})});menu.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'&&matchMedia('(hover:hover)').matches){menus.forEach(other=>{if(other!==menu)other.open=false});menu.open=true}});menu.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse'&&!menu.contains(document.activeElement))menu.open=false})});
