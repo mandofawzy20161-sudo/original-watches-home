@@ -131,7 +131,14 @@ fbq('track', 'PageView');
 .ow-shop-nav :focus-visible{outline:2px solid #c5a56b;outline-offset:-3px}
 @media(max-width:600px){.ow-shop-nav-inner{padding:0 6px;gap:0;justify-content:space-between}.ow-shop-top,.ow-shop-dropdown>summary{padding:14px 7px;font-size:12px;gap:4px}.ow-shop-panel{width:210px;max-height:65dvh}.ow-shop-dropdown:last-child .ow-shop-panel{right:auto;left:0}}
 </style>
-<style>.ow-shop-nav{display:block}.ow-shop-nav-inner{width:100%;min-width:0}.ow-shop-nav .ow-shop-top{font-size:14px;font-weight:700}@media(max-width:600px){.ow-shop-nav .ow-shop-top,.ow-shop-dropdown>summary{font-size:11px;padding:14px 5px}.ow-shop-nav-inner{padding:0 4px}}</style><style>.ow-shop-panel a,.ow-shop-brand>summary{font-size:16px;font-weight:700;color:#142d34;padding:12px 18px}.ow-shop-panel{width:260px}.brandchip{font-size:15px;font-weight:700;color:#142d34;padding:12px 16px}.collection-label{font-size:12px;color:#596b70;margin-inline-start:6px}@media(max-width:600px){.ow-shop-panel{width:230px}.ow-shop-panel a,.ow-shop-brand>summary{font-size:15px}}</style></head><body>
+<style>.ow-shop-nav{display:block}.ow-shop-nav-inner{width:100%;min-width:0}.ow-shop-nav .ow-shop-top{font-size:14px;font-weight:700}@media(max-width:600px){.ow-shop-nav .ow-shop-top,.ow-shop-dropdown>summary{font-size:11px;padding:14px 5px}.ow-shop-nav-inner{padding:0 4px}}</style><style>.ow-shop-panel a,.ow-shop-brand>summary{font-size:16px;font-weight:700;color:#142d34;padding:12px 18px}.ow-shop-panel{width:260px}.brandchip{font-size:15px;font-weight:700;color:#142d34;padding:12px 16px}.collection-label{font-size:12px;color:#596b70;margin-inline-start:6px}@media(max-width:600px){.ow-shop-panel{width:230px}.ow-shop-panel a,.ow-shop-brand>summary{font-size:15px}}</style><style id="collection-badges">
+.card .brand{display:flex;flex-wrap:wrap;align-items:center;gap:9px;line-height:1.7}
+.card .collection-label{display:inline-block;font-family:inherit;font-size:16px;font-weight:800;line-height:1.5;letter-spacing:0;padding:5px 13px;border-radius:7px;margin:0;white-space:nowrap}
+.card .collection-original{color:#124b39;background:#e1f2e9;border:1px solid #9bc6af}
+.card .collection-mirror{color:#6d410c;background:#fff0d3;border:1px solid #d9b574}
+#ow-original-menu>summary,#ow-mirror-menu>summary{font-weight:800}
+@media(max-width:600px){.card .collection-label{font-size:15px;padding:4px 10px}}
+</style></head><body>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=28531163386545850&amp;ev=PageView&amp;noscript=1"></noscript>
 <div class="topnote">ORIGINAL WATCHES EG — MIRROR COLLECTION · مجموعة الميرور</div>
 <header><a href="#" class="logo" id="homeLogo">ORIGINAL WATCHES<small>E G Y P T</small></a><nav><a href="#featured" data-home="featured">اختيارات مميزة</a></nav><a class="contact" href="https://wa.me/201011926183" target="_blank" rel="noopener">تواصل معنا ↗</a></header><nav class="ow-shop-nav" aria-label="أقسام الساعات"><div class="ow-shop-nav-inner">
@@ -178,7 +185,7 @@ const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,
 function offerPrice(value){
   const current=Number(value);
   if(!Number.isFinite(current)||current<=0)return money(value);
-  const comparison=current+100;
+  const comparison=Math.round(current*130)/100;
   return `<span class="ow-price-pair"><span class="ow-sale-price">${money(current)}</span><del class="ow-compare-price" aria-label="السعر قبل العرض">${money(comparison)}</del></span>`;
 }
 
@@ -209,7 +216,7 @@ function genderMatches(p,g){return g==='all'||p.gender===g||(p.gender==='unisex'
 function genderLabel(p){return ({men:'رجالي',women:'حريمي',unisex:'للجنسين',accessory:'بوكس وإكسسوارات'})[p.gender]||''}
 function productLink(p){const u=new URL(location.href);u.hash='';u.searchParams.set('product',p.id);return u.href}
 function orderMessage(p){return `السلام عليكم، ${p.availability==='out'?'حابب أسأل عن موعد توفر':'حابب أطلب'} ${p.name}\nالكود: ${p.model}\nالسعر: ${money(p.price)}\n${productLink(p)}`}
-function card(p){return `<article class="card"><button class="photo" data-product="${esc(p.id)}" aria-label="عرض ${esc(p.brand+' '+p.model)}">${picture(p.thumbnails?.[0]||p.images[0],p.name)}${stockBadge(p)}<span class="tag">${genderLabel(p)}</span></button><div class="info"><div class="brand">${esc(p.brand)}</div><h3>${esc(p.name)}</h3><p class="product-code" dir="ltr">${esc(p.model)}</p><div class="price">${offerPrice(p.price)}</div><button class="cardbutton" data-product="${esc(p.id)}">عرض الساعة ←</button><button class="cart-add" type="button" data-cart-add="${esc(p.id)}" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button></div></article>`}
+function card(p){return `<article class="card"><button class="photo" data-product="${esc(p.id)}" aria-label="عرض ${esc(p.brand+' '+p.model)}">${picture(p.thumbnails?.[0]||p.images[0],p.name)}${stockBadge(p)}<span class="tag">${genderLabel(p)}</span></button><div class="info"><div class="brand">${esc(p.brand)} <span class="collection-label collection-mirror">ميرور</span></div><h3>${esc(p.name)}</h3><p class="product-code" dir="ltr">${esc(p.model)}</p><div class="price">${offerPrice(p.price)}</div><button class="cardbutton" data-product="${esc(p.id)}">عرض الساعة ←</button><button class="cart-add" type="button" data-cart-add="${esc(p.id)}" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button></div></article>`}
 // Daily selections use Egypt's calendar, independent of the visitor's time zone.
 function cairoDay(now=new Date()){
   const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
