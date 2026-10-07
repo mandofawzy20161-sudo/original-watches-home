@@ -353,7 +353,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF6101-B-Y-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6101-BE-Y-BE": {
       "price": 1800,
@@ -6429,7 +6429,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MASERATI-R8873642004": {
       "price": 5350,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MASERATI-R8851108011": {
       "price": 5345,
