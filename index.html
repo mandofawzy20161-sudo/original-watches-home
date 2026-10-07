@@ -162,13 +162,13 @@ fbq('track', 'PageView');
 <section class="section" id="store-policies" aria-labelledby="policies-title" style="padding-bottom:40px"><div class="heading"><div><span class="kicker">WARRANTY &amp; RETURNS</span><h2 id="policies-title">الضمان والاسترجاع</h2></div></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px"><article style="background:white;border:1px solid var(--line);padding:24px"><h3 style="margin:0 0 12px">ضمان سنتين</h3><p style="margin:0;line-height:2;font-size:14px">ضمان لمدة سنتين من تاريخ الشراء على ماكينة الساعة فقط.</p></article><article style="background:white;border:1px solid var(--line);padding:24px"><h3 style="margin:0 0 12px">الاسترجاع والاستبدال</h3><p style="margin:0;line-height:2;font-size:14px">يمكنك إرجاع المنتج خلال ١٤ يومًا من تاريخ الشراء، بشرط عدم استعماله، مع اختيار استرداد المبلغ أو استبداله بمنتج آخر.</p></article></div><p style="font-size:13px;line-height:1.8"><a href="https://wa.me/201011926183" target="_blank" rel="noopener" style="text-decoration:underline">للاستفسار عن الضمان أو طلب الاسترجاع والاستبدال، تواصل معنا عبر واتساب ↗</a></p></section>
 </main><footer><div class="logo">ORIGINAL WATCHES<small>EGYPT</small></div><p>اختار موديلك وتواصل معنا لتأكيد التوفر وتفاصيل الطلب.<br><a href="#customer-reviews" style="text-decoration:underline">آراء عملائنا</a><br><a href="#store-policies" style="text-decoration:underline">الضمان والاسترجاع</a><br><a href="tel:+201011926183" dir="ltr">01011926183</a></p><div class="social-links" aria-label="تابعنا على مواقع التواصل" style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;direction:rtl"><a href="https://www.instagram.com/original.watches0/" target="_blank" rel="noopener noreferrer" aria-label="إنستجرام — يفتح في صفحة جديدة">إنستا ↗</a><a href="https://www.facebook.com/profile.php?id=61594138414173" target="_blank" rel="noopener noreferrer" aria-label="فيسبوك — يفتح في صفحة جديدة">فيس ↗</a><a href="https://www.tiktok.com/@originalwatches.eg" target="_blank" rel="noopener noreferrer" aria-label="تيك توك — يفتح في صفحة جديدة">تيك توك ↗</a></div></footer>
 <dialog id="productDialog" aria-label="تفاصيل الساعة"><button class="close" id="closeDialog">✕ إغلاق</button><div id="productContent"></div></dialog>
-<script src="products-1.js"></script>
-<script src="products-2.js"></script>
-<script src="products-3.js"></script>
-<script src="products-4.js"></script>
-<script src="products-5.js"></script>
-<script src="catalog-updates.js?v=20260929-strap-specs"></script>
-<script src="mirror-products.js"></script><script src="mirror-catalog-updates.js"></script>
+<script src="products-1.js?v=20261007"></script>
+<script src="products-2.js?v=20261007"></script>
+<script src="products-3.js?v=20261007"></script>
+<script src="products-4.js?v=20261007"></script>
+<script src="products-5.js?v=20261007"></script>
+<script src="catalog-updates.js?v=20261007"></script>
+<script src="mirror-products.js?v=20261007"></script><script src="mirror-catalog-updates.js?v=20261007"></script>
 <script>
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
 
@@ -183,8 +183,8 @@ for(const p of PRODUCTS){
   if(patch) Object.assign(p,patch);
 }
 for(const newProduct of (CATALOG_UPDATES.add||[])){
-  if(newProduct && newProduct.id && !PRODUCTS.some(p=>String(p.id)===String(newProduct.id))){
-    PRODUCTS.push(newProduct);
+  if(newProduct && newProduct.id && !_removeIds.has(String(newProduct.id)) && !PRODUCTS.some(p=>String(p.id)===String(newProduct.id))){
+    PRODUCTS.push(Object.assign({},newProduct,_productPatches[newProduct.id]||{}));
   }
 }
 
@@ -192,7 +192,7 @@ const ORIGINAL_PRODUCTS=PRODUCTS.slice();
 const mirrorUpdates=window.MIRROR_CATALOG_UPDATES||{};
 const mirrorRemoved=new Set((mirrorUpdates.remove||[]).map(String));
 for(const p of (window.__MIRROR_PRODUCTS_PARTS||[]).flat())if(!mirrorRemoved.has(String(p.id)))PRODUCTS.push(Object.assign({},p,(mirrorUpdates.update||{})[p.id]||{}));
-for(const p of mirrorUpdates.add||[])if(p&&p.id&&!PRODUCTS.some(x=>x.id===p.id))PRODUCTS.push(p);
+for(const p of mirrorUpdates.add||[])if(p&&p.id&&!mirrorRemoved.has(String(p.id))&&!PRODUCTS.some(x=>x.id===p.id))PRODUCTS.push(Object.assign({},p,(mirrorUpdates.update||{})[p.id]||{}));
 let collectionScope=new URLSearchParams(location.search).get('collection')==='original'?'original':'all';
 function catalogProducts(){return collectionScope==='original'?ORIGINAL_PRODUCTS:PRODUCTS;}
 
@@ -449,7 +449,7 @@ setTimeout(restoreCatalogLocation,0);
 window.addEventListener('popstate',restoreCatalogLocation);
 </script>
 <script>
-function owSharedCatalog(parts,updates){const removed=new Set((updates.remove||[]).map(String));const rows=parts.flat().filter(p=>!removed.has(String(p.id))).map(p=>Object.assign({},p,(updates.update||{})[p.id]||{}));for(const p of updates.add||[])if(p&&p.id&&!rows.some(r=>r.id===p.id))rows.push(p);return rows;}
+function owSharedCatalog(parts,updates){const removed=new Set((updates.remove||[]).map(String));const rows=parts.flat().filter(p=>!removed.has(String(p.id))).map(p=>Object.assign({},p,(updates.update||{})[p.id]||{}));for(const p of updates.add||[])if(p&&p.id&&!removed.has(String(p.id))&&!rows.some(r=>r.id===p.id))rows.push(Object.assign({},p,(updates.update||{})[p.id]||{}));return rows;}
 const OW_CART_PRODUCTS=owSharedCatalog(window.__OW_PRODUCTS_PARTS||[],window.CATALOG_UPDATES||{}).concat(owSharedCatalog(window.__MIRROR_PRODUCTS_PARTS||[],window.MIRROR_CATALOG_UPDATES||{}));
 </script>
 <style>
