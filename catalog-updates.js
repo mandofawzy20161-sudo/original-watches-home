@@ -8209,7 +8209,7 @@ window.CATALOG_UPDATES = {
     },
     "women-NAVIFORCE-NF5050-S-W-S": {
       "price": 1700,
-      "availability": "out"
+      "availability": "in"
     },
     "women-NAVIFORCE-NF5045S-RG-L-GY-RG": {
       "price": 1700,
