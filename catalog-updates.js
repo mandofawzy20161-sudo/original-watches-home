@@ -489,23 +489,23 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8048G-S-BE-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8048G-S-BE-RG": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8048G-S-BE-S": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8048G-S-W-RG": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8048G-S-W-S": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8049-B-RG-B": {
       "price": 1800,
@@ -8161,7 +8161,7 @@ window.CATALOG_UPDATES = {
     },
     "women-MINI FOCUS-MF0334L.05": {
       "price": 1400,
-      "availability": "in"
+      "availability": "out"
     },
     "women-MINI FOCUS-MF0222L.02": {
       "price": 1400,
