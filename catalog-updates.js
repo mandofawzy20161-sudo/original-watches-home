@@ -357,7 +357,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF6101-BE-Y-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6101-GN-O-GN": {
       "price": 1800,
@@ -365,19 +365,19 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF6101-GY-W-GY": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6101-GY-Y-GY": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6101-RG-Y-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6101-S-Y-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-B-B": {
       "price": 1800,
@@ -445,15 +445,15 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8025-B-BE-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8025-B-GN-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8025-B-W-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8038-B-B-O": {
       "price": 1800,
@@ -589,31 +589,31 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8063-B-B-R": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-B-GN-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-BE-W-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-G-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-G-BE-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-RG-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-RG-GN-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8063-S-W-B": {
       "price": 1800,
@@ -12989,39 +12989,39 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF9250-G-G-G": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-B-B-B": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-B-RG-B": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-S-B-S": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-S-BE-S": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-S-RG-S": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-S-GN-S": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-S-W-S": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9250-RG-B-B": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8037-RG-B-B": {
       "price": 1850,
