@@ -14649,6 +14649,2526 @@ window.CATALOG_UPDATES = {
       "sourceUrl": "https://mowatches1.com/products/ibso-flowers-edition?variant=51341032620315",
       "sourceTitle": "Ibso flowers edition",
       "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF7123-S-G-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF7123-S-G-B",
+      "name": "NAVIFORCE NF7123-S-G-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf7123-s-g-b-naviforce-watch-chronograph-wr-5atm-men-black-dial-rubber-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "ربر"
+        ],
+        [
+          "لون السير",
+          "أسود"
+        ],
+        [
+          "مادة صنع السير",
+          "سيليكون مطاط"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "47 مم"
+        ],
+        [
+          "السُمك",
+          "16 مم"
+        ],
+        [
+          "الوزن",
+          "68 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "50 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF7123 S G B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf7123-s-g-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8076-B-RG-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8076-B-RG-B",
+      "name": "NAVIFORCE NF8076-B-RG-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8076-b-rg-b-naviforce-watch-chronograph-wr-3atm-men-black-dial-metal-stainless-steel-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF8076"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "اسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "اسود"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "20 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "120 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة ايقاف"
+        ],
+        [
+          "كود المنتج",
+          "NF8076"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8076 B RG B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf8076-b-rg-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8020L-G-B-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8020L-G-B-B",
+      "name": "NAVIFORCE NF8020L-G-B-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2023/01/nf8020l-g-b-b-naviforce-watch-men-black-dial-leather-strap-quartz-battery-analog-chronograph-water-resistant-30m-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF8020L"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "اسود"
+        ],
+        [
+          "نوع السير",
+          "جلد"
+        ],
+        [
+          "لون السير",
+          "اسود"
+        ],
+        [
+          "مادة صنع السير",
+          "جلد"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "46 مم"
+        ],
+        [
+          "السُمك",
+          "14 مم"
+        ],
+        [
+          "الوزن",
+          "91 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة ايقاف"
+        ],
+        [
+          "كود المنتج",
+          "NF8020L"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8020L G B B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf8020l-g-b-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9147-RG-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9147-RG-BE",
+      "name": "NAVIFORCE NF9147-RG-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2023/01/nf9147-rg-be-naviforce-watch-men-blue-dial-metal-rose-gold-strap-quartz-battery-analog-water-resistant-30m-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "روز جولد"
+        ],
+        [
+          "مادة صنع السير",
+          "معدن"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "44 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "145 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر والأسبوع"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9147 RG BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9147-rg-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9214-S-W",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9214-S-W",
+      "name": "NAVIFORCE NF9214-S-W",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9214-s-w-naviforce-watch-water-resistant-30m-men-white-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أبيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "40.5 مم"
+        ],
+        [
+          "السُمك",
+          "10.5 مم"
+        ],
+        [
+          "الوزن",
+          "125 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9214 S W"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9214-s-w/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9214-S-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9214-S-B",
+      "name": "NAVIFORCE NF9214-S-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9214-s-b-naviforce-watch-water-resistant-30m-men-black-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "40.5 مم"
+        ],
+        [
+          "السُمك",
+          "10.5 مم"
+        ],
+        [
+          "الوزن",
+          "125 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9214 S B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9214-s-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9214-S-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9214-S-BE",
+      "name": "NAVIFORCE NF9214-S-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9214-s-be-naviforce-watch-water-resistant-30m-men-blue-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "40.5 مم"
+        ],
+        [
+          "السُمك",
+          "10.5 مم"
+        ],
+        [
+          "الوزن",
+          "125 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9214 S BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9214-s-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8042-S-W-G",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8042-S-W-G",
+      "name": "NAVIFORCE NF8042-S-W-G",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8042-s-w-g-naviforce-watch-chronograph-wr-3atm-men-white-dial-stainless-steel-metal-silver-gold-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أبيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي وذهبي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "135 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8042 S W G"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8042-s-w-g/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9240-S-BE-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9240-S-BE-S",
+      "name": "NAVIFORCE NF9240-S-BE-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9240-s-be-s-naviforce-watch-water-resistant-30m-men-square-blue-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "مربعة"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "39 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "133 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9240 S BE S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9240-s-be-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9240-S-BE-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9240-S-BE-BE",
+      "name": "NAVIFORCE NF9240-S-BE-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9240-s-be-be-naviforce-watch-water-resistant-30m-men-two-tone-square-blue-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "مربعة"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي وأزرق"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "39 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "133 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9240 S BE BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9240-s-be-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9230-S-W-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9230-S-W-S",
+      "name": "NAVIFORCE NF9230-S-W-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9230-s-w-s-naviforce-watch-water-resistant-30m-men-white-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF9230"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "ابيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "11 مم"
+        ],
+        [
+          "الوزن",
+          "104 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "كود المنتج",
+          "NF9230"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9230 S W S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf9230-s-w-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9249-S-B-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9249-S-B-BE",
+      "name": "NAVIFORCE NF9249-S-B-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9249-s-b-be-naviforce-watch-water-resistant-30m-men-black-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "136 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9249 S B BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9249-s-b-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9249-S-B-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9249-S-B-S",
+      "name": "NAVIFORCE NF9249-S-B-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9249-s-b-s-naviforce-watch-water-resistant-30m-men-black-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "136 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9249 S B S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9249-s-b-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9191-S-G-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9191-S-G-B",
+      "name": "NAVIFORCE NF9191-S-G-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2023/01/nf9191-s-g-b-naviforce-watch-men-black-dial-metal-silver-gold-strap-quartz-battery-analog-wr-3atm-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF9191"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "اسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي و ذهبي"
+        ],
+        [
+          "مادة صنع السير",
+          "معدن"
+        ],
+        [
+          "عرض الاستيك",
+          "20 مم"
+        ],
+        [
+          "القُطر",
+          "43.5 مم"
+        ],
+        [
+          "السُمك",
+          "14 مم"
+        ],
+        [
+          "الوزن",
+          "152 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "كود المنتج",
+          "NF9191"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9191 S G B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf9191-s-g-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9272-Silver-White",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9272-Silver-White",
+      "name": "NAVIFORCE NF9272-Silver-White",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://www.ahmedwatches.com/wp-content/uploads/2026/02/Untitled-design-2026-02-02T133516.485.png"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9272"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "لون المينا",
+          "أبيض"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مقاومة الماء",
+          "مقاومة للرذاذ؛ الدرجة غير مذكورة بالمصدر"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://www.ahmedwatches.com/product/naviforce-nf9272-mens-stainless-steel-quartz-watch/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8049-S-BE-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8049-S-BE-S",
+      "name": "NAVIFORCE NF8049-S-BE-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8049-s-be-s-naviforce-watch-chronograph-wr-3atm-men-blue-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي وأزرق"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "23 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "137 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8049 S BE S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8049-s-be-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8042-S-W-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8042-S-W-S",
+      "name": "NAVIFORCE NF8042-S-W-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/03/nf8042-s-w-s-naviforce-watch-chronograph-wr-3atm-men-white-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "NF8042"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "ابيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "135 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "10 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "كود المنتج",
+          "NF8042"
+        ],
+        [
+          "السريال نمبر",
+          "NF8042-S-W-S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf8042-s-w-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8070-B-RG-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8070-B-RG-B",
+      "name": "NAVIFORCE NF8070-B-RG-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://cdnx.elshroukwatches.com/wp-content/uploads/2026/02/nf8070-b-rg-b-naviforce-watch-chronograph-wr-3atm-men-square-black-dial-rubber-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "مربعة"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "اسود"
+        ],
+        [
+          "نوع السير",
+          "سيليكون مطاط"
+        ],
+        [
+          "لون السير",
+          "اسود"
+        ],
+        [
+          "مادة صنع السير",
+          "سيليكون مطاط"
+        ],
+        [
+          "عرض الاستيك",
+          "26 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "16 مم"
+        ],
+        [
+          "الوزن",
+          "107 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "10 متر"
+        ],
+        [
+          "التصميم",
+          "نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة ايقاف"
+        ],
+        [
+          "كود المنتج",
+          "NF8070"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://elshroukwatches.com/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-nf8070-b-rg-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8076-S-W-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8076-S-W-S",
+      "name": "NAVIFORCE NF8076-S-W-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8076-s-w-s-naviforce-watch-chronograph-wr-3atm-men-white-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF8076"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "ابيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "20 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "120 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة ايقاف"
+        ],
+        [
+          "كود المنتج",
+          "NF8076"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8076 S W S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf8076-s-w-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9218-S-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9218-S-BE",
+      "name": "NAVIFORCE NF9218-S-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2024/10/nf9218-s-be-naviforce-watch-water-resistant-30m-men-blue-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "133 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر والأسبوع"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9218 S BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9218-s-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9272-Silver-Gold-Black",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9272-Silver-Gold-Black",
+      "name": "NAVIFORCE NF9272-Silver-Gold-Black",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://www.ahmedwatches.com/wp-content/uploads/2026/02/Untitled-design-2026-02-02T140720.546.png"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9272"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "لون السير",
+          "فضي وذهبي"
+        ],
+        [
+          "مقاومة الماء",
+          "مقاومة للرذاذ؛ الدرجة غير مذكورة بالمصدر"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://www.ahmedwatches.com/product/naviforce-nf9272-mens-stainless-steel-quartz-watch-6/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9226-S-W-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9226-S-W-S",
+      "name": "NAVIFORCE NF9226-S-W-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9226-s-w-s-naviforce-watch-water-resistant-30m-men-white-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أبيض"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "135 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9226 S W S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9226-s-w-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9215S-S-BE-BE",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9215S-S-BE-BE",
+      "name": "NAVIFORCE NF9215S-S-BE-BE",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf9215s-s-be-be-naviforce-watch-men-blue-dial-stainless-steel-metal-silver-strap-quartz-battery-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream NF9215S"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "نظرية"
+        ],
+        [
+          "لون المينا",
+          "ازرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "41 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "123 جرام"
+        ],
+        [
+          "التاريخ",
+          "ايام الشهر و الاسبوع"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس Naviforce Co"
+        ],
+        [
+          "نوع الحركة",
+          "ماكينة يابانية بطارية (كوارتز)"
+        ],
+        [
+          "كود المنتج",
+          "NF9215S"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9215S S BE BE"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/ar/product/%d8%b3%d8%a7%d8%b9%d8%a9-%d9%8a%d8%af-%d9%86%d8%a7%d9%81%d9%8a-%d9%81%d9%88%d8%b1%d8%b3-%d8%b1%d8%ac%d8%a7%d9%84%d9%8a-nf9215s-s-be-be/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9207-S-B-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9207-S-B-B",
+      "name": "NAVIFORCE NF9207-S-B-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2023/05/nf9207-s-b-b-naviforce-watch-men-black-dial-stainless-steel-metal-silver-strap-quartz-battery-digital-analog-three-hand-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "رقمي وعقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "معدن"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "44 مم"
+        ],
+        [
+          "السُمك",
+          "16.5 مم"
+        ],
+        [
+          "الوزن",
+          "184 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر والأسبوع"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ثلاثة عقارب"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9207 S B B"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf9207-s-b-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8076-S-B-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8076-S-B-S",
+      "name": "NAVIFORCE NF8076-S-B-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8076-s-b-s-naviforce-watch-chronograph-wr-3atm-men-black-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "20 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "120 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8076 S B S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8076-s-b-s/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8076-S-BE-S",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8076-S-BE-S",
+      "name": "NAVIFORCE NF8076-S-BE-S",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8076-s-be-s-naviforce-watch-chronograph-wr-3atm-men-blue-dial-metal-stainless-steel-silver-strap-quartz-battery-analog-for-dream.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أزرق"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "20 مم"
+        ],
+        [
+          "القُطر",
+          "42 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "120 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8076 S BE S"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8076-s-be-s/",
+      "pick": true
+    },
+    {
+      "id": "women-MINI FOCUS-MF0498.4-5",
+      "brand": "MINI FOCUS",
+      "gender": "women",
+      "model": "MF0498.4-5",
+      "name": "MINI FOCUS MF0498.4-5",
+      "price": 1550,
+      "availability": "in",
+      "images": [
+        "https://mobilcentar.ba/wp-content/uploads/2023/11/20231101_122550-rotated.jpg",
+        "https://mobilcentar.ba/wp-content/uploads/2023/11/20231101_122402-rotated.jpg",
+        "https://mobilcentar.ba/wp-content/uploads/2023/11/20231101_122411-rotated.jpg",
+        "https://mobilcentar.ba/wp-content/uploads/2023/11/20231101_122509-rotated.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "ميني فوكس"
+        ],
+        [
+          "النوع",
+          "حريمي"
+        ],
+        [
+          "كود الموديل بالمصدر",
+          "MF0498.4-5"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "لون السير",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://mobilcentar.ba/proizvod/zenski-sat-mini-focus-15712-1/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF9231-Black-Golden",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF9231 Black Golden",
+      "name": "NAVIFORCE NF9231 Black Golden",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://alixstore.in/cdn/shop/files/AIMG_0967.jpg?v=1750924896",
+        "https://cdn.othoba.com/images/thumbs/1267793_naviforce-nf9231-mens-minimalist-business-watch-with-japanese-quartz-movement-luminous-waterproof-mu.jpeg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF9231"
+        ],
+        [
+          "نوع الحركة",
+          "Seiko Instruments VH60"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "لون السير",
+          "فضي وذهبي"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "مقاومة الماء",
+          "3 ATM"
+        ],
+        [
+          "القُطر",
+          "44 مم"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "السُمك",
+          "11 مم"
+        ],
+        [
+          "طول السوار",
+          "240 مم"
+        ],
+        [
+          "الوزن",
+          "140 جم"
+        ],
+        [
+          "الزجاج",
+          "زجاج معدني مقوّى"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://www.naviforce-watch.com/product/naviforce-nf9231-black-golden/",
+      "pick": true
     }
   ]
 };
