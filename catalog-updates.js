@@ -425,23 +425,23 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF7105-B-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF7105-B-G-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF7105-B-RG-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF7105-GN-GN-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF7105-S-RG-GY": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8025-B-BE-BE": {
       "price": 1800,
