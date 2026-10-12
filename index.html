@@ -140,7 +140,111 @@ fbq('track', 'PageView');
 .card .collection-mirror{color:#6d410c;background:#fff0d3;border:1px solid #d9b574}
 #ow-original-menu>summary,#ow-mirror-menu>summary{font-weight:800}
 @media(max-width:600px){.card .collection-label{font-size:15px;padding:4px 10px}}
-</style></head><body>
+</style><style id="ow-mobile-responsive-fix">
+/* Original Watches EG – mobile layout improvements only. Desktop styling is untouched. */
+@media (max-width: 900px) {
+  .wrap, .hero, .detailgrid, .detailgrid > *, .details, .card, .card .info,
+  #catalogGrid, #cartBody, .cart-desc, .heading > * { min-width: 0; }
+  .wrap { width:100%; }
+  .detailgrid { grid-template-columns:minmax(0,1fr); }
+  .detailmain { display:block; width:100%; max-width:100%; object-fit:contain; object-position:center; }
+  #productContent, #cartBody, .details, .cart-desc { overflow-wrap:anywhere; }
+  .thumbs { max-width:100%; overscroll-behavior-x:contain; }
+  .filters { flex-wrap:wrap; }
+  .filters input { flex:1 1 100%; }
+  .filters select { flex:1 1 145px; min-width:0; }
+}
+@media (max-width: 600px) {
+  html { max-width:100%; }
+  body { max-width:100%; overflow-x:clip; }
+  img,video,iframe { max-width:100%; }
+  .wrap { padding-inline:12px; }
+  header { gap:8px; padding:13px 12px; }
+  header .logo { font-size:clamp(14px,4vw,19px); letter-spacing:1px; min-width:0; }
+  header .logo small { font-size:8px; letter-spacing:2px; }
+  header .contact { font-size:11px; padding:9px 10px; white-space:nowrap; }
+  header nav { min-width:0; justify-content:center; }
+  .ow-shop-nav-inner { display:grid; grid-template-columns:repeat(4,minmax(0,1fr));
+    align-items:stretch; gap:0; padding:0 4px; max-width:100%; }
+  .ow-shop-dropdown { min-width:0; }
+  .ow-shop-top, .ow-shop-dropdown > summary { min-width:0; width:100%;
+    min-height:48px; padding:9px 3px; white-space:normal;
+    text-align:center; font-size:clamp(10px,2.8vw,12px); line-height:1.5;
+    overflow-wrap:anywhere; }
+  .ow-shop-dropdown > summary { gap:2px; }
+  .ow-shop-dropdown > summary::after { flex-shrink:0; }
+  .ow-shop-panel { width:min(260px,92vw); max-width:92vw; }
+  .ow-shop-dropdown:last-child .ow-shop-panel { left:0; right:auto; }
+  .hero { margin-top:12px; width:100%; min-width:0; }
+  .hero-copy { padding:22px 18px; }
+  .hero h1 { font-size:clamp(26px,7.5vw,36px); }
+  .hero-art, .hero-product { width:100%; max-width:100%; min-width:0; overflow:hidden; }
+  .hero-art img { display:block; width:100%; max-width:100%; height:230px; object-fit:contain; object-position:center; }
+  .benefits.purchase-benefits { margin-top:12px; }
+  .purchase-benefits > div { min-width:0; }
+  .heading { align-items:start; flex-wrap:wrap; }
+  .heading h2 { font-size:clamp(20px,5.5vw,24px); }
+  .grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  .card { min-width:0; overflow:hidden; }
+  .card .info { padding:10px; }
+  .card .photo { height:clamp(150px,48vw,205px); padding:8px; }
+  .card .photo img { display:block; max-width:100%; max-height:100%; object-fit:contain; object-position:center; }
+  .card .brand { gap:5px; flex-wrap:wrap; }
+  .card .collection-label { font-size:12px; padding:3px 7px; }
+  .card .info h3 { font-size:13px; overflow-wrap:anywhere; }
+  .card .price { font-size:13px; }
+  .card .ow-price-pair, .details .ow-price-pair { display:flex; flex-wrap:wrap; gap:3px 8px; }
+  .card .ow-sale-price, .card .ow-compare-price,
+  .details .ow-sale-price, .details .ow-compare-price { white-space:normal; }
+  .card .cardbutton { padding:10px 4px; margin-top:9px; }
+  .card .cart-add { font-size:12px; min-height:44px; padding:9px 5px; }
+  .filters { gap:8px; width:100%; }
+  .filters input { flex:1 1 100%; width:100%; max-width:100%; }
+  .filters select { width:calc(50% - 4px); flex:1 1 calc(50% - 4px); min-width:0; font-size:12px; }
+  .brandchip { font-size:12px; padding:9px 10px; }
+  #catalogGrid[data-view="list"] .card { grid-template-columns:minmax(100px,40%) minmax(0,1fr); }
+  #catalogGrid[data-view="list"] .photo { height:100%; min-height:175px; }
+  dialog#productDialog, dialog#cartDialog {
+    box-sizing:border-box; width:calc(100% - 16px); max-width:calc(100vw - 16px);
+    max-height:calc(100dvh - 16px); margin:auto; padding:12px;
+    overflow-y:auto; overflow-x:hidden; border-radius:9px;
+  }
+  #productDialog .detailgrid { grid-template-columns:minmax(0,1fr); gap:12px; }
+  #productDialog .detailgrid > div { min-width:0; max-width:100%; }
+  #productDialog .detailmain { display:block; width:100%; height:min(62vw,290px);
+    max-height:42dvh; object-fit:contain; object-position:center; background:#fff; }
+  #productDialog .thumbs { display:flex; width:100%; max-width:100%; overflow-x:auto;
+    overflow-y:hidden; gap:8px; padding:10px 0; }
+  #productDialog .thumbs button { flex:0 0 62px; }
+  #productDialog .details h2 { font-size:clamp(22px,7vw,28px); }
+  #productDialog .details .price { margin:12px 0; font-size:clamp(20px,6vw,25px); }
+  #productDialog .details .cart-add, #productDialog .details .cardbutton,
+  #productDialog .details .whatsapp { width:100%; min-height:44px; margin-top:9px; }
+  #productDialog table { max-width:100%; table-layout:fixed; }
+  #productDialog td { overflow-wrap:anywhere; }
+  .cart-top { gap:8px; }
+  .cart-top h2 { font-size:19px; }
+  .cart-row { grid-template-columns:60px minmax(0,1fr); gap:9px; }
+  .cart-image { width:60px; height:80px; }
+  .cart-payments { display:grid; grid-template-columns:minmax(0,1fr); gap:10px; }
+  .cart-payments .btn { display:block; max-width:100%; white-space:normal; text-align:center; overflow-wrap:anywhere; }
+  .cart-float { left:10px; bottom:calc(10px + env(safe-area-inset-bottom)); }
+  .cart-trigger { min-height:44px; }
+  .review-track { max-width:100%; }
+  .review-card { flex-basis:85%; }
+  .review-card img { height:min(100vw,360px); }
+  footer { padding:25px 12px; }
+}
+@media (max-width: 350px) {
+  .wrap { padding-inline:8px; }
+  .ow-shop-top, .ow-shop-dropdown > summary { font-size:10px; padding-inline:2px; }
+  .card .info { padding:8px; }
+  .card .photo { height:154px; }
+  .card .collection-label { font-size:11px; }
+  .cart-row { gap:7px; }
+}
+</style>
+</head><body>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=28531163386545850&amp;ev=PageView&amp;noscript=1"></noscript>
 <div class="topnote">ORIGINAL WATCHES EG — تفاصيل صغيرة. حضور مختلف.</div>
 <header><a href="#" class="logo" id="homeLogo">ORIGINAL WATCHES<small>E G Y P T · WATCH COLLECTION</small></a><nav><a href="#featured" data-home="featured">اختيارات مميزة</a></nav><a class="contact" href="https://wa.me/201011926183" target="_blank" rel="noopener">تواصل معنا ↗</a></header><nav class="ow-shop-nav" aria-label="أقسام الساعات"><div class="ow-shop-nav-inner">
@@ -425,7 +529,7 @@ if(updateUrl){
  const u=new URL(window.location.href);
  u.searchParams.set('product',String(p.id));
  history.pushState({product:String(p.id)},'',u.pathname+u.search+u.hash);
-}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price,String(p.id).startsWith('mirror-'))}</div><div class="detail-cart-actions"><button class="cart-add" type="button" data-cart-add="${esc(p.id)}" ${p.availability==='out'?'disabled aria-disabled="true"':''}>${p.availability==='out'?'غير متوفرة حاليًا':'إضافة إلى السلة +'}</button><button class="detail-cart-view" type="button" data-cart-open>عرض السلة وإتمام الطلب</button></div><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
+}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price,String(p.id).startsWith('mirror-'))}</div><button type="button" class="cart-add" data-cart-add="${esc(String(p.id))}" aria-label="إضافة ${esc(p.brand+' '+p.model)} إلى السلة" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة حاليًا':'إضافة إلى السلة +'}</button><button type="button" class="cardbutton" data-cart-open>عرض السلة وإتمام الطلب</button><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-product],[data-catalog],[data-brand],[data-image],[data-home]');if(!el)return;if(el.dataset.product)detail(el.dataset.product);else if(el.dataset.catalog)catalog(el.dataset.catalog);else if(el.dataset.brand){activeBrand=el.dataset.brand;limit=24;render();setCatalogBrowserState($('gender').value)}else if(el.dataset.image)$('detailImage').src=el.dataset.image;else if(el.dataset.home){e.preventDefault();home(el.dataset.home)}});
 $('closeDialog').onclick=()=>$('productDialog').close();
 $('productDialog').addEventListener('close',()=>{
@@ -453,7 +557,6 @@ function owSharedCatalog(parts,updates){const removed=new Set((updates.remove||[
 const OW_CART_PRODUCTS=owSharedCatalog(window.__OW_PRODUCTS_PARTS||[],window.CATALOG_UPDATES||{}).concat(owSharedCatalog(window.__MIRROR_PRODUCTS_PARTS||[],window.MIRROR_CATALOG_UPDATES||{}));
 </script>
 <style>
-.detail-cart-actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 12px}.detail-cart-actions .cart-add,.detail-cart-actions .detail-cart-view{flex:1 1 160px;width:auto;margin:0;min-height:48px;padding:12px;font:inherit;cursor:pointer;border-radius:7px}.detail-cart-actions .detail-cart-view{background:#fff;border:1px solid var(--ink);color:var(--ink)}.detail-cart-actions .detail-cart-view:hover{background:#f2f3ef}.detail-cart-actions .cart-add:disabled{cursor:not-allowed;opacity:.55}
 .cart-add{display:block;width:100%;padding:12px 8px;margin-top:9px;border:1px solid var(--ink);background:var(--ink);color:white;font-size:14px;min-height:44px}.cart-add:hover{background:#25434b}.cart-trigger{display:flex;align-items:center;gap:8px;border:1px solid var(--ink);background:var(--ink);color:white;padding:11px 14px;font-size:14px;min-height:44px}.cart-trigger svg{width:20px;height:20px}.cart-badge{background:#ddc69d;color:var(--ink);min-width:24px;padding:3px 6px;border-radius:50%;font-weight:bold}.cart-float{position:fixed;bottom:20px;left:20px;z-index:20;box-shadow:0 4px 22px #10262d30;border-radius:30px}.cart-top{display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding-bottom:15px}.cart-top h2{margin:0;font-size:24px}.cart-top button{margin:0;min-height:44px}.cart-list{margin:0;padding:0;list-style:none}.cart-row{display:grid;grid-template-columns:80px minmax(0,1fr) auto;align-items:center;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}.cart-image{width:80px;height:100px;object-fit:contain;background:#fff}.cart-desc h3{font-size:15px;margin:0 0 8px;line-height:1.6;overflow-wrap:anywhere}.cart-model{font:14px Arial;margin:5px 0;overflow-wrap:anywhere}.cart-unit{font-size:14px;color:#53656a}.cart-quantity{display:flex;align-items:center;gap:5px;margin-top:10px;direction:ltr}.cart-quantity button{width:38px;height:38px;border:1px solid #ccd3cf;background:white}.cart-quantity input{width:48px;height:38px;text-align:center;border:1px solid #ccd3cf;background:white;border-radius:0;font-size:16px}.cart-quantity input::-webkit-inner-spin-button{appearance:none}.cart-quantity input{appearance:textfield}.cart-remove{margin-top:10px;background:none;border:0;color:#8a3030;text-decoration:underline;font-size:14px;padding:8px}.cart-line-total{font-weight:bold;text-align:left;font-size:16px;white-space:nowrap}.cart-summary{padding:20px 0;display:grid;gap:14px}.cart-summary div{display:flex;justify-content:space-between;gap:20px;font-size:16px}.cart-summary .cart-grand{font-size:22px;padding-top:14px;border-top:1px solid var(--line)}.cart-payments{display:grid;grid-template-columns:1fr 1fr;gap:10px}.cart-payments a,.cart-payments button{padding:15px 12px;font-size:15px;text-align:center;line-height:1.6;min-height:52px}.cart-note{font-size:14px;line-height:1.8;color:#53656a}.cart-empty{padding:45px 15px;text-align:center;line-height:2}.cart-toast{position:fixed;bottom:85px;left:20px;right:20px;z-index:100;max-width:430px;padding:14px 18px;background:var(--ink);color:white;box-shadow:0 6px 25px #0003;line-height:1.7;font-size:14px;pointer-events:none}.cart-toast:empty{display:none}#cartDialog{width:min(94%,800px)}#cartDialog[open]{display:flex;flex-direction:column}#cartBody{overflow-y:auto;padding:0 6px}.cart-continue{display:block;margin:18px auto 0}.cart-payments [aria-disabled="true"]{opacity:.55;cursor:not-allowed}.cart-trust{font-size:13px;color:#53656a;line-height:1.8}
 @media(max-width:600px){.cart-trigger{font-size:13px;padding:9px 11px}.cart-float{left:12px;bottom:14px}.cart-row{grid-template-columns:64px minmax(0,1fr);gap:12px}.cart-image{width:64px;height:85px}.cart-line-total{grid-column:2;text-align:right;font-size:15px}.cart-row{padding:16px 0}.cart-payments{grid-template-columns:1fr}.cart-top h2{font-size:20px}.cart-summary .cart-grand{font-size:19px}.cart-toast{bottom:77px}.cart-desc h3{font-size:14px}.cart-add{font-size:13px}}
 header{flex-wrap:wrap}@media(max-width:900px){header nav{order:3;width:100%;justify-content:space-between}}
@@ -514,7 +617,7 @@ const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgb
   get('closeCart').onclick=()=>get('cartDialog').close();
   get('cartDialog').addEventListener('click',e=>{if(e.target!==get('cartDialog'))return;const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()});
   window.addEventListener('storage',e=>{if(e.key===KEY||e.key===null){cart=read();update()}});
-  const oldDetail=detail;detail=function(id,updateUrl=true){oldDetail(id,updateUrl);const p=byId.get(id);if(!p)return;get('productContent').querySelector('.whatsapp').insertAdjacentHTML('beforebegin',`<button type="button" class="cart-add" data-cart-add="${esc(id)}" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة':'إضافة إلى السلة +'}</button><button type="button" class="cardbutton" data-cart-open>عرض السلة وإتمام الطلب</button>`)};
+
   update();
 })();
 </script>
