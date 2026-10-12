@@ -13,7 +13,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0602G.01": {
       "price": 1650,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0468G.02": {
       "price": 1600,
@@ -65,7 +65,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0628G.03": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0218G.02": {
       "price": 1600,
@@ -129,7 +129,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0420G.01": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0350G.03": {
       "price": 1600,
@@ -185,7 +185,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0602G.03": {
       "price": 1650,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0488G.04": {
       "price": 1700,
@@ -277,7 +277,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0602G.06": {
       "price": 1650,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0187G.01": {
       "price": 1600,
@@ -297,7 +297,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0399G.01": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0610G.07": {
       "price": 1700,
@@ -429,7 +429,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF7105-B-G-B": {
       "price": 1800,
-      "availability": "out"
+      "availability": "in"
     },
     "men-NAVIFORCE-NF7105-B-RG-B": {
       "price": 1800,
@@ -517,7 +517,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8049-S-GN-S": {
       "price": 1800,
-      "availability": "out"
+      "availability": "in"
     },
     "men-NAVIFORCE-NF8049-S-GY-RG": {
       "price": 1800,
@@ -581,7 +581,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8054-G-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8054-S-B-B": {
       "price": 1800,
@@ -697,7 +697,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8080-RG-B-B": {
       "price": 1800,
-      "availability": "out"
+      "availability": "in"
     },
     "men-NAVIFORCE-NF8080-S-B-B": {
       "price": 1800,
@@ -709,7 +709,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8080-S-GN-GN": {
       "price": 1800,
-      "availability": "out"
+      "availability": "in"
     },
     "men-NAVIFORCE-NF8080-S-GY-GY": {
       "price": 1800,
