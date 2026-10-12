@@ -17169,6 +17169,642 @@ window.CATALOG_UPDATES = {
       ],
       "sourceUrl": "https://www.naviforce-watch.com/product/naviforce-nf9231-black-golden/",
       "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8080-B-B-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8080-B-B-B",
+      "name": "NAVIFORCE NF8080-B-B-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_5.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_6.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8080-b-b-b-naviforce-watch-water-resistant-30m-men-black-dial-rubber-strap-quartz-battery-analog-chronograph-for-dream_7.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/02/naviforce-watch-box.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أسود"
+        ],
+        [
+          "نوع السير",
+          "ربر"
+        ],
+        [
+          "لون السير",
+          "أسود"
+        ],
+        [
+          "مادة صنع السير",
+          "سيليكون مطاط"
+        ],
+        [
+          "عرض الاستيك",
+          "26 مم"
+        ],
+        [
+          "القُطر",
+          "41 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "73 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8080-B-B-B"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8080-b-b-b/",
+      "pick": true
+    },
+    {
+      "id": "men-NAVIFORCE-NF8054-S-W-B",
+      "brand": "NAVIFORCE",
+      "gender": "men",
+      "model": "NF8054-S-W-B",
+      "name": "NAVIFORCE NF8054-S-W-B",
+      "price": 1800,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_5.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_6.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_7.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/01/nf8054-s-w-b-naviforce-watch-chronograph-wr-3atm-men-silver-dial-rubber-black-strap-quartz-battery-analog-for-dream_8.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/02/naviforce-watch-box.jpg"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "نافي فورس"
+        ],
+        [
+          "نوع الموديل",
+          "Naviforce For Dream"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "فضي"
+        ],
+        [
+          "نوع السير",
+          "ربر"
+        ],
+        [
+          "لون السير",
+          "أسود"
+        ],
+        [
+          "مادة صنع السير",
+          "سيليكون مطاط"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "42.5 مم"
+        ],
+        [
+          "السُمك",
+          "13 مم"
+        ],
+        [
+          "الوزن",
+          "86 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة نافي فورس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "NF8054-S-W-B"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/naviforce-watch-for-dream-nf8054-s-w-b/",
+      "pick": true
+    },
+    {
+      "id": "men-MINI FOCUS-MF0634G-06",
+      "brand": "MINI FOCUS",
+      "gender": "men",
+      "model": "MF0634G-06",
+      "name": "MINI FOCUS MF0634G-06",
+      "price": 1700,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_5.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_6.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0634g-06-mini-focus-watch-men-chronograph-beige-dial-silver-stainless-steel-strap_7.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mini-focus-watch-box.webp"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "ميني فوكس"
+        ],
+        [
+          "نوع الموديل",
+          "ميني فوكس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "بيج"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "22 مم"
+        ],
+        [
+          "القُطر",
+          "44 مم"
+        ],
+        [
+          "السُمك",
+          "12 مم"
+        ],
+        [
+          "الوزن",
+          "156 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة ميني فوكس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "MF0634G-06"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/mini-focus-watch-men-mf0634g-06/",
+      "pick": true
+    },
+    {
+      "id": "women-MINI FOCUS-MF0254L-03",
+      "brand": "MINI FOCUS",
+      "gender": "women",
+      "model": "MF0254L-03",
+      "name": "MINI FOCUS MF0254L-03",
+      "price": 1645,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0254l-03-mini-focus-watch-women-gold-dial-stainless-steel-strap-mesh-crystal.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0254l-03-mini-focus-watch-women-gold-dial-stainless-steel-strap-mesh-crystal_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0254l-03-mini-focus-watch-women-gold-dial-stainless-steel-strap-mesh-crystal_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0254l-03-mini-focus-watch-women-gold-dial-stainless-steel-strap-mesh-crystal_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mini-focus-watch-box.webp"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "ميني فوكس"
+        ],
+        [
+          "نوع الموديل",
+          "ميني فوكس"
+        ],
+        [
+          "النوع",
+          "حريمي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "ذهبي"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "ذهبي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "14 مم"
+        ],
+        [
+          "القُطر",
+          "36 مم"
+        ],
+        [
+          "السُمك",
+          "10 مم"
+        ],
+        [
+          "الوزن",
+          "71 جم"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة ميني فوكس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "الرقم المصنعي",
+          "MF0254L-03"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/mini-focus-watch-women-mf0254l-03/",
+      "pick": true
+    },
+    {
+      "id": "men-MINI FOCUS-MF0612G-02",
+      "brand": "MINI FOCUS",
+      "gender": "men",
+      "model": "MF0612G-02",
+      "name": "MINI FOCUS MF0612G-02",
+      "price": 1700,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_5.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_6.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_7.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_8.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_9.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-02-mini-focus-watch-men-chronograph-silver-dial-stainless-steel-strap_10.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mini-focus-watch-box.webp"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "ميني فوكس"
+        ],
+        [
+          "نوع الموديل",
+          "ميني فوكس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "فضي"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "171 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة ميني فوكس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "MF0612G-02"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/mini-focus-watch-men-mf0612g-02/",
+      "pick": true
+    },
+    {
+      "id": "men-MINI FOCUS-MF0612G-03",
+      "brand": "MINI FOCUS",
+      "gender": "men",
+      "model": "MF0612G-03",
+      "name": "MINI FOCUS MF0612G-03",
+      "price": 1700,
+      "availability": "in",
+      "images": [
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_2.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_3.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_4.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_5.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_6.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_7.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mf0612g-03-mini-focus-watch-men-chronograph-green-dial-silver-stainless-steel-strap_8.jpg",
+        "https://watchesprime.com/wp-content/uploads/2026/09/mini-focus-watch-box.webp"
+      ],
+      "specs": [
+        [
+          "الماركة",
+          "ميني فوكس"
+        ],
+        [
+          "نوع الموديل",
+          "ميني فوكس"
+        ],
+        [
+          "النوع",
+          "رجالي"
+        ],
+        [
+          "شكل الساعة",
+          "دائرية"
+        ],
+        [
+          "نوع العرض",
+          "عقارب"
+        ],
+        [
+          "لون المينا",
+          "أخضر"
+        ],
+        [
+          "نوع السير",
+          "معدن"
+        ],
+        [
+          "لون السير",
+          "فضي"
+        ],
+        [
+          "مادة صنع السير",
+          "ستانلس ستيل"
+        ],
+        [
+          "عرض الاستيك",
+          "24 مم"
+        ],
+        [
+          "القُطر",
+          "43 مم"
+        ],
+        [
+          "السُمك",
+          "11.5 مم"
+        ],
+        [
+          "الوزن",
+          "171 جم"
+        ],
+        [
+          "التاريخ",
+          "أيام الشهر"
+        ],
+        [
+          "مقاومة الماء",
+          "30 متر"
+        ],
+        [
+          "التصميم",
+          "شركة ميني فوكس"
+        ],
+        [
+          "نوع الحركة",
+          "كوارتز (بطارية)"
+        ],
+        [
+          "مميزات خاصة",
+          "ساعة إيقاف"
+        ],
+        [
+          "الرقم المصنعي",
+          "MF0612G-03"
+        ],
+        [
+          "الضمان",
+          "سنتين على ماكينة الساعة فقط"
+        ],
+        [
+          "نوع الساعة",
+          "Original"
+        ]
+      ],
+      "sourceUrl": "https://watchesprime.com/product/mini-focus-watch-men-mf0612g-03/",
+      "pick": true
     }
   ]
 };
