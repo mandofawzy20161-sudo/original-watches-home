@@ -353,7 +353,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF6101-B-Y-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "on"
     },
     "men-NAVIFORCE-NF6101-BE-Y-BE": {
       "price": 1800,
