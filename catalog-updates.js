@@ -317,7 +317,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0463G.05": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0473G.01": {
       "price": 1600,
