@@ -246,6 +246,9 @@ fbq('track', 'PageView');
   .cart-row { gap:7px; }
 }
 </style>
+<style>
+.product-checkout{display:flex;justify-content:center;width:100%;min-height:44px;margin-top:9px;text-align:center;box-sizing:border-box}.product-checkout:disabled{opacity:.5;cursor:not-allowed}
+</style>
 </head><body>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=28531163386545850&amp;ev=PageView&amp;noscript=1"></noscript>
 <div class="topnote">ORIGINAL WATCHES EG — تفاصيل صغيرة. حضور مختلف.</div>
@@ -533,7 +536,7 @@ if(updateUrl){
  const u=new URL(window.location.href);
  u.searchParams.set('product',String(p.id));
  history.pushState({product:String(p.id)},'',u.pathname+u.search+u.hash);
-}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price)}</div><button type="button" class="cart-add" data-cart-add="${esc(String(p.id))}" aria-label="إضافة ${esc(p.brand+' '+p.model)} إلى السلة" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة حاليًا':'إضافة إلى السلة +'}</button><button type="button" class="cardbutton" data-cart-open>عرض السلة وإتمام الطلب</button><a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
+}const msg=p.availability==='out'?`السلام عليكم، إمتى هتتوفر ساعة ${p.brand} موديل ${p.model}؟`:`السلام عليكم، حابب أستفسر عن ساعة ${p.brand} موديل ${p.model} (${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}) بسعر ${money(p.price)}. هل متوفرة؟`;$('productContent').innerHTML=`<div class="detailgrid"><div><img class="detailmain" id="detailImage" src="${esc(p.images[0])}" alt="${esc(p.model)}"><div class="thumbs">${p.images.map((u,i)=>`<button data-image="${esc(u)}" aria-label="صورة ${i+1}">${picture(u,p.model)}</button>`).join('')}</div></div><div class="details"><span class="brand">${esc(p.brand)} · ${p.gender==='men'?'رجالي':p.gender==='women'?'حريمي':'إكسسوارات'}</span><h2>${esc(p.model)}</h2><p>${esc(p.name)}</p><div class="price">${offerPrice(p.price)}</div><button type="button" class="cart-add" data-cart-add="${esc(String(p.id))}" aria-label="إضافة ${esc(p.brand+' '+p.model)} إلى السلة" ${p.availability==='out'?'disabled':''}>${p.availability==='out'?'مش متوفرة حاليًا':'إضافة إلى السلة +'}</button>${p.availability!=='out'&&owOrderUrl([{id:String(p.id),qty:1}])?`<a class="btn product-checkout" data-product-checkout="${esc(String(p.id))}" href="${esc(owOrderUrl([{id:String(p.id),qty:1}]))}" target="_blank" rel="noopener">شراء بتسجيل البيانات ↗</a>`:`<button type="button" class="btn product-checkout" disabled>شراء بتسجيل البيانات</button>`}<a class="btn whatsapp" href="https://wa.me/201011926183?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${p.availability==='out'?'اسأل عن موعد التوفر ↗':'استفسر واطلب عبر واتساب ↗'}</a><p><strong>${stockText(p)}</strong>${p.availabilityAsOf?`<br><small>حسب بيانات ${stockDate(p)}؛ بنأكد التوفر بالاتصال قبل الشحن.</small>`:''}</p>${DELIVERY_HTML}<h3>الوصف والمواصفات</h3><table aria-label="مواصفات الساعة">${(p.specs||[]).map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>${p.additionalSpecs?.length ? `<h3>معلومات إضافية</h3><table aria-label="معلومات إضافية عن الساعة">${p.additionalSpecs.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}</div></div>`;$('productDialog').showModal();owMetaProduct('ViewContent',p)}
 document.addEventListener('click',e=>{const el=e.target.closest('[data-product],[data-catalog],[data-brand],[data-image],[data-home]');if(!el)return;if(el.dataset.product)detail(el.dataset.product);else if(el.dataset.catalog)catalog(el.dataset.catalog);else if(el.dataset.brand){activeBrand=el.dataset.brand;limit=24;render();setCatalogBrowserState($('gender').value)}else if(el.dataset.image)$('detailImage').src=el.dataset.image;else if(el.dataset.home){e.preventDefault();home(el.dataset.home)}});
 $('closeDialog').onclick=()=>$('productDialog').close();
 $('productDialog').addEventListener('close',()=>{
@@ -570,6 +573,10 @@ header{flex-wrap:wrap}@media(max-width:900px){header nav{order:3;width:100%;just
 <script>
 // Paste the deployed Google Apps Script /exec URL here after setup.
 const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgbrTyQ-LuupIEt1vXHz-tb3fNADIivpxO-cs0MYEj2BCgHC3l7QO-6Q/exec';
+function owOrderUrl(items){
+  if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(ORDER_FORM_URL))return '';
+  return ORDER_FORM_URL+'?cart='+encodeURIComponent(JSON.stringify(items));
+}
 (() => {
   const KEY='original-watches-eg-cart-v1',MAX_LINES=20,MAX_QTY=20;
   const byId=new Map(OW_CART_PRODUCTS.map(p=>[p.id,p]));
@@ -583,7 +590,7 @@ const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgb
   const icon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 3h2l3 12h11l3-9H6M8 19h.01M18 19h.01"/><circle cx="8" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>';
   for(const floating of [false,true]){const b=document.createElement('button');b.type='button';b.className='cart-trigger'+(floating?' cart-float':'');b.dataset.cartOpen='';b.innerHTML=icon+'<span>السلة</span><span class="cart-badge">٠</span>';(floating?document.body:document.querySelector('header')).appendChild(b)}
   function whatsapp(){const {count,total}=totals();const rows=cart.map((r,i)=>{const p=byId.get(r.id);return `${i+1}. ${p.name}\nالموديل: ${p.model}\nالكمية: ${r.qty} × ${money(p.price)}\nإجمالي الصنف: ${money(p.price*r.qty)}`});return 'https://wa.me/201011926183?text='+encodeURIComponent('السلام عليكم، حابب أطلب الساعات التالية من Original Watches EG:\n\n'+rows.join('\n\n')+`\n\nإجمالي عدد القطع: ${count}\nإجمالي المنتجات: ${money(total)}\nالشحن: مجاني لجميع المحافظات\nالإجمالي: ${money(total)}\nبرجاء الاتصال لتأكيد التوفر والطلب.`)}
-  function checkoutUrl(){if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(ORDER_FORM_URL))return '';return ORDER_FORM_URL+'?cart='+encodeURIComponent(JSON.stringify(cart))}
+  function checkoutUrl(){return owOrderUrl(cart)}
   function render(){
     const body=get('cartBody');if(!cart.length){body.innerHTML='<div class="cart-empty"><h3>السلة لسه فاضية</h3><p>اختار الساعات اللي عجبتك واضغط «إضافة إلى السلة».</p><button class="btn" data-cart-close type="button">ابدأ التسوق</button></div>';return}
     const {count,total}=totals();
@@ -609,7 +616,11 @@ const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgb
   function trackCheckoutLink(e){
     if(e.type==='auxclick'&&e.button!==1)return;
     const a=e.target.closest('a[href]');if(!a)return;
-    if(a.id==='cartCheckout'){
+    if(a.hasAttribute('data-product-checkout')){
+      const p=byId.get(a.dataset.productCheckout);
+      if(!p||p.availability==='out'){e.preventDefault();return;}
+      owMetaTrack('InitiateCheckout',owMetaItems([{product:p,qty:1}]));
+    }else if(a.id==='cartCheckout'){
       if(!cart.length||!checkoutUrl())return;
       owMetaTrack('InitiateCheckout',owMetaItems(cart.map(r=>({product:byId.get(r.id),qty:r.qty}))));
     }else if(a.href.startsWith('https://wa.me/')){
