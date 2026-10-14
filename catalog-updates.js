@@ -289,7 +289,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0463G.04": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0614G.04": {
       "price": 1600,
@@ -968,11 +968,11 @@ window.CATALOG_UPDATES = {
       "availability": "in"
     },
     "men-BOSS-1513814": {
-      "price": 4050,
+      "price": 4000,
       "availability": "in"
     },
     "men-BOSS-1513093": {
-      "price": 4250,
+      "price": 3850,
       "availability": "in"
     },
     "men-BOSS-1513773": {
