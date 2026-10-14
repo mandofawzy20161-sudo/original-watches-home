@@ -279,6 +279,13 @@ fbq('track', 'PageView');
 <script src="catalog-updates.js?v=20261012six"></script>
 <script src="mirror-products.js?v=20261007"></script><script src="mirror-catalog-updates.js?v=20261007"></script>
 <script>
+// Paste the deployed Google Apps Script /exec URL here after setup.
+const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgbrTyQ-LuupIEt1vXHz-tb3fNADIivpxO-cs0MYEj2BCgHC3l7QO-6Q/exec';
+function owOrderUrl(items){
+  if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(ORDER_FORM_URL))return '';
+  return ORDER_FORM_URL+'?cart='+encodeURIComponent(JSON.stringify(items));
+}
+
 const PRODUCTS=(window.__OW_PRODUCTS_PARTS||[]).flat();
 
 const CATALOG_UPDATES=window.CATALOG_UPDATES||{update:{},remove:[],add:[]};
@@ -319,8 +326,9 @@ function offerPrice(value){
 function owMetaTrack(eventName, data){
   try{if(typeof window.fbq==='function')window.fbq('track',eventName,data||{})}catch(_){/* Tracking must not interrupt shopping. */}
 }
+function owMetaId(value){let id=String(value);if(id.length>100){try{id=decodeURIComponent(id);}catch(_){}}return id;}
 function owMetaItems(rows){
-  const contents=(rows||[]).map(row=>({id:String(row.product.id),quantity:Number(row.qty),item_price:Number(row.product.price)}))
+  const contents=(rows||[]).map(row=>({id:owMetaId(row.product.id),quantity:Number(row.qty),item_price:Number(row.product.price)}))
     .filter(row=>Number.isInteger(row.quantity)&&row.quantity>0&&Number.isFinite(row.item_price)&&row.item_price>=0);
   return {content_type:'product',content_ids:contents.map(row=>row.id),contents,currency:'EGP',
     value:Math.round(contents.reduce((sum,row)=>sum+row.item_price*row.quantity,0)*100)/100,
@@ -556,7 +564,9 @@ for(const id of ['search','gender','sort','stockFilter','strapFilter','viewMode'
   });
 }
 $('loadMore').onclick=()=>{limit+=24;render()};
-setTimeout(restoreCatalogLocation,0);
+if(document.readyState==='loading'){
+  document.addEventListener('DOMContentLoaded',restoreCatalogLocation,{once:true});
+}else restoreCatalogLocation();
 window.addEventListener('popstate',restoreCatalogLocation);
 </script>
 <script>
@@ -571,12 +581,6 @@ header{flex-wrap:wrap}@media(max-width:900px){header nav{order:3;width:100%;just
 <dialog id="cartDialog" aria-labelledby="cartTitle"><div class="cart-top"><h2 id="cartTitle">سلة مشترياتك</h2><button class="close" type="button" id="closeCart">✕ إغلاق</button></div><div id="cartBody"></div></dialog>
 <div class="cart-toast" id="cartToast" role="status" aria-live="polite"></div>
 <script>
-// Paste the deployed Google Apps Script /exec URL here after setup.
-const ORDER_FORM_URL = 'https://script.google.com/macros/s/AKfycbz_NNccXYO_kLJgbrTyQ-LuupIEt1vXHz-tb3fNADIivpxO-cs0MYEj2BCgHC3l7QO-6Q/exec';
-function owOrderUrl(items){
-  if(!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(ORDER_FORM_URL))return '';
-  return ORDER_FORM_URL+'?cart='+encodeURIComponent(JSON.stringify(items));
-}
 (() => {
   const KEY='original-watches-eg-cart-v1',MAX_LINES=20,MAX_QTY=20;
   const byId=new Map(OW_CART_PRODUCTS.map(p=>[p.id,p]));
