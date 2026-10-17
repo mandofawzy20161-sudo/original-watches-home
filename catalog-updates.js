@@ -381,23 +381,23 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF6106-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-B-G": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-B-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-BE-BE": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-RG-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF6106-S-B": {
       "price": 1800,
@@ -457,11 +457,11 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8038-B-B-O": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8038-B-B-Y": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8038-RG-B-B": {
       "price": 1800,
@@ -553,15 +553,15 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF8051L-B-GY-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8051T-B-B-GY": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8051T-S-GN-GN": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF8052-B-GN-GN": {
       "price": 1800,
@@ -809,7 +809,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF9216S-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9216S-S-B": {
       "price": 1800,
@@ -901,7 +901,7 @@ window.CATALOG_UPDATES = {
     },
     "men-NAVIFORCE-NF9257-B-B-B": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-NAVIFORCE-NF9257-B-BE-B": {
       "price": 1800,
