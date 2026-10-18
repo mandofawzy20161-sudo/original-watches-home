@@ -9,7 +9,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-AMS0475.03": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0602G.01": {
       "price": 1650,
@@ -17,7 +17,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0468G.02": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0411G.02": {
       "price": 1700,
@@ -41,11 +41,11 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-AMS0475.06": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0349G.02": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0399G.04": {
       "price": 1800,
@@ -97,7 +97,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0273G.03": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0399G.03": {
       "price": 1800,
@@ -105,11 +105,11 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-AMS0475.04": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0349G.04": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0294G.04": {
       "price": 1600,
@@ -141,7 +141,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0349G.03": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0602G.02": {
       "price": 1650,
@@ -169,7 +169,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0628G.05": {
       "price": 1800,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0282G.02": {
       "price": 1600,
@@ -197,7 +197,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0230G.04": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0244G.01": {
       "price": 1700,
@@ -209,7 +209,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0230G.03": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0230G.02": {
       "price": 1600,
@@ -245,7 +245,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0349G.06": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0350G.02": {
       "price": 1600,
@@ -269,7 +269,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0349G.01": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0244G.04": {
       "price": 1700,
@@ -305,7 +305,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-AMS0475.05": {
       "price": 1700,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0188G.02": {
       "price": 1600,
@@ -321,7 +321,7 @@ window.CATALOG_UPDATES = {
     },
     "men-MINI FOCUS-MF0473G.01": {
       "price": 1600,
-      "availability": "in"
+      "availability": "out"
     },
     "men-MINI FOCUS-MF0294G.02": {
       "price": 1600,
